@@ -1,0 +1,1873 @@
+Zakres Promoceny.pl
+Komponenty dziedziczone/ powtarzaj¹ce siê na serwisie
+Obszar Nawigacja
+* Element dziedziczony na ka¿dej podstronie serwisu
+* Sk³adowe:
+o Logotyp
+o Wyszukiwarka
+o Nawigacja serwisu
+* Produkty
+* Gazetki promocyjne
+* Sieci handlowe
+* Sklepy
+* Poradnik zakupowy
+
+Dzia³anie poszczególnych elementów:
+* Logotyp
+o Klikniêcie w logotyp przenosi u¿ytkownika na stronê g³ówn¹ serwisu
+* Wyszukiwarka
+o Mo¿liwoœæ wprowadzenia frazy, która przenosi na stronê wyników wyszukiwania
+o Przenosi u¿ytkownika na stronê Wyników wyszukiwania np. Promoceny.pl/szukaj/[fraza]
+* Nawigacja serwisu
+Wybranie sekcji serwisu w nawigacji powoduje przekierowanie i zaznaczenie tego obszaru odmiennym kolorem
+
+o Produkty
+* Przenosi do strony https://promoceny.pl/produkty/
+o Gazetki promocyjne
+* Przenosi do strony https://promoceny.pl/gazetki-promocyjne/
+o Sieci handlowe
+* Przenosi do strony https://promoceny.pl/sieci-handlowe/
+o Sklepy
+* Przenosi do strony https://www.promoceny.pl/sklepy/
+o Poradnik zakupowy
+* Przenosi do strony https://promoceny.pl/poradnik-zakupowy/
+
+* Sekcja: Stopka
+
+o Gazetki promocyjne
+* Przenosi u¿ytkownika do strony gazetek promocyjnych https://promoceny.pl/gazetki-promocyjne/
+* Prezentujemy listê kategorii dostêpnych na serwisie
+* Wybranie kategorii powoduje przejœcie do odpowiedniej strony kategorii:
+o Mapa Strony
+* Strona g³ówna
+* Przenosi u¿ytkownika na pocz¹tek strony g³ównej serwisu
+* Produkty
+* Przenosi u¿ytkownika do strony produktów https:// promoceny.pl/produkty/
+* Gazetki promocyjne
+* Przenosi u¿ytkownika na stronê promoceny.pl/gazetki-promocyjne
+* Wykaz sklepów
+* Przenosi u¿ytkownika na stronê https://promoceny.pl/sklepy/
+* Poradnik zakupowy
+* Przenosi u¿ytkownika na stronê https://promoceny.pl/poradnik-zakupowy/
+o Promoceny.pl
+* Kontakt
+o Przenosi do formularza kontaktowego
+* Reklama
+o Przenosi na stronê https://www.polsatmedia.pl/Oferta---Kanal_6801/Adretail_1788321/Adretail_1501153/index.html
+* Prywatnoœæ
+o Przenosi do strony https://prywatnosc.interia.pl/
+* Klauzula informacyjna
+“Korzystanie z portalu oznacza akceptacjê Regulaminu.
+Copyright by INTERIA.PL 2024. Wszystkie prawa zastrze¿one.”
+o Regulamin linkuje do strony https://prywatnosc.interia.pl/regulamin
+o INTERIA.PL linkuje do strony https://firma.interia.pl/nasze-marki/
+
+* Reklamy
+o Wstawka reklamowa
+* Analityka
+o Wstawka analityczna
+* Kody GA4
+* IWA3
+* Gemius
+* Plansza Rodo
+
+
+* Sta³e komponenty
+
+o Sekcja: Promowane gazetki
+Narzêdzie przeznaczone do promowania gazetek sprzeda¿owych
+* Sekcja prezentuje widget z gazetki promocyjnymi w formie slidera
+* Zawartoœci¹ slidera oparta jest na ok³adkach/ pierwszych stron gazetek
+* Prezentujemy tylko i wy³¹cznie aktywne gazetki
+* Gazetki pobierane s¹ z bazy Gazetek w CDD
+* Zarz¹dzanie prezentowan¹ treœci¹ odbywa siê za poœrednictwem narzêdzia w CDD https://wydawcy.adretail.pl/publishers#internal, gdzie rêcznie ustalamy jakie gazetki pojawiaj¹ siê w sliderze
+* Wybranie gazetki powoduje przekierowanie do strony (przegl¹darki) wybranej gazetki
+
+o Sekcja: Popularne Sieci handlowe
+* Prezentacja logotypów wybranych sieci handlowych 
+* Maksymalna liczba wyœwietlanych logotypów 18
+* Zarz¹dzanie kolejnoœci¹ i liczb¹ wyœwietlanych sieci handlowych zarz¹dzamy z poziomu CDD https://sklepy.adretail.pl/contractors_priorities
+
+o Sekcja: Miasta
+*  Prezentujemy listê 20 miast 
+* Mo¿e byæ ona stworzona na podstawie przekazanej listy, zarz¹dzane na podstawie zg³oszenia do IT
+* Mo¿e byæ ona budowana automatycznie na podstawie najwiêkszej liczby odwiedzin pochodz¹cych z danego miasta
+* Aktualizacja mog³aby siê odbywaæ w okreœlonych cyklach, np. Co 2 tygodnie, co 30 dni, do ustalenia na etapie realizacji
+ STRONA G£ÓWNA
+
+Adresacja: promoceny.pl
+
+Elementy na stronie g³ównej
+* Sekcja: Promowane gazetki
+* Patrz sekcja sta³e komponenty – Promowane gazetki
+
+* Najnowsze gazetki i katalogi
+o Sekcja prezentuje najnowsze gazetki promocyjne dodane do serwisu
+o Prezentujemy ok³adki aktywnych gazetek promocyjnych 
+o Gazetki s¹ pobiera z bazy Gazetek CDD
+o Element przenosz¹cy do listingu wszystkich gazetek 
+* Np. przycisk “zobacz wiêcej”, który przenosi do sekcji https://www.promoceny.pl/gazetki-promocyjne/
+* Ostatni slot z tekstem, przenosz¹cy do sekcji gazetek
+
+* Sekcja: Polecane oferty
+o Sekcja prezentuje wyciête produkty z gazetek promocyjnych
+o Dane pobierane s¹ z bazy CDD z wyciêtych produktów z gazetek promocyjnych
+o Do tej sekcji wpadaj¹ oferty, których wartoœæ przeceny wynosi minimum 20%
+o Produkty wybierane s¹ z ca³ej bazy aktywnych produktów
+
+* Sekcja: Najlepsze oferty
+o Sekcja prezentuje wyciête produkty z gazetek promocyjnych
+o Dane pobierane s¹ z bazy CDD z wyciêtych produktów z gazetek promocyjnych
+o Do tej sekcji wpadaj¹ oferty, których wartoœæ przeceny wynosi minimum 20%
+o Produkty wybierane s¹ z ca³ej bazy aktywnych produktów
+
+
+* Sekcja: Popularne Sieci handlowe
+o Prezentacja logotypów wybranych sieci handlowych 
+o Maksymalna liczba wyœwietlanych logotypów 18
+o Zarz¹dzanie kolejnoœci¹ i liczb¹ wyœwietlanych sieci handlowych zarz¹dzamy z poziomu CDD https://sklepy.adretail.pl/contractors_priorities
+
+* Sekcja: Blogowa
+o Prezentujemy najnowsze artyku³y dodane do serwisu
+
+* Sekcja: Najczêœciej szukane
+o Sekcja prezentuj¹ca najczêœciej szukane produkty
+
+
+* Sekcja: Miasta
+o  Prezentujemy listê 20 miast 
+* Mo¿e byæ ona stworzona na podstawie przekazanej listy, zarz¹dzane na podstawie zg³oszenia do IT 
+* Mo¿e byæ ona budowana automatycznie na podstawie najwiêkszej liczby odwiedzin pochodz¹cych z danego miasta
+* Aktualizacja mog³aby siê odbywaæ w okreœlonych cyklach, np. Co 2 tygodnie, co 30 dni
+* Sekcja: Tekst SEO
+o Pole do wprowadzenia tekstu SEO
+
+* Sekcja: Stopka
+o Patrz Sekcja: Stopka
+
+Listing produktów
+Strona prezentuje wybrane promocje z gazetek, koncentruj¹c siê na ofertach z ró¿nych kategorii produktów. U¿ytkownicy mog¹:
+* Przegl¹daæ produkty w promocji z ró¿nych sieci handlowych.
+* Sprawdzaæ pe³ne gazetki w poszukiwaniu dodatkowych okazji.
+* Porównywaæ oferty i decydowaæ, gdzie zrobiæ zakupy.
+* Filtrowaæ oferty wed³ug kategorii, sklepów i lokalizacji.
+
+Adresacja:
+* Obecny Url: promoceny.pl/promocje
+* Nowy Url: promoceny.pl/produkty
+
+Elementy sk³adowe strony:
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Nag³ówek strony
+* Najlepsze promocje z gazetek – Wybrane okazje dla Ciebie
+
+o Sekcja: Promowane gazetki
+* Patrz sekcja sta³e komponenty – Promowane gazetki
+* Podtytu³: Odkryj gazetki pe³ne okazji!
+
+o Sekcja kategorii
+* Tekst sekcji
+* SprawdŸ aktualne promocje, które znajdziesz w gazetkach promocyjnych popularnych sieci handlowych. Porównaj ceny i znajdŸ najlepsze oferty w Twoim mieœcie!
+* Lista kategorii dostêpnych w serwisie
+* Kategorie linkuj¹ do strony kategorii
+* Wybranie kategorii, przenosi na stronê z produktami z wybranej kategorii
+* Je¿eli kategoria nie posiada ¿adnych produktów, to jej nie pokazujemy na liœcie wyboru kategorii.
+*  Strona pozostaje dostêpna dla u¿ytkowników przychodz¹cych z wyników wyszukiwania (odes³añ) 
+* Je¿eli po wejœciu na tak¹ stronê nie ma produktów do wyœwietlenia to prezentujemy komunikat:
+"Ups! Obecnie brak produktów w tej kategorii."
+"Nasza oferta jest regularnie aktualizowana – zajrzyj ponownie wkrótce!"
+"Co mo¿esz zrobiæ teraz?"
+Przegl¹daj inne promocje
+Zobacz najnowsze gazetki
+
+o Sekcja: Promocje z gazetek promocyjnych
+* Dane pobierane s¹ z bazy CDD z wyciêtych produktów z gazetek promocyjnych
+* Sekcja prezentuje wyciête produkty z gazetek promocyjnych pogrupowanych po kategorii
+* W ka¿dej kategorii prezentujemy 4 produkty z mo¿liwoœci¹ przejœcia do pe³nego listingu produktów tej kategorii (strona kategorii)
+* Buton „zobacz wiêcej promocji z tej kategorii” przenosi do strony danej kategorii
+* W pierwszej kolejnoœci prezentujemy produkty, których wartoœæ przeceny wynosi minimum 20%, póŸniej ca³¹ resztê.
+* Produkty wybierane s¹ z ca³ej bazy aktywnych produktów nale¿¹cych do danej kategorii
+  
+o Sekcja: Popularne produkty
+* Sekcja prezentuj¹ca najczêœciej szukane/popularne produkty
+
+o Sekcja: Popularne Sieci handlowe
+* Prezentacja logotypów wybranych sieci handlowych 
+* Maksymalna liczba wyœwietlanych logotypów 18
+* Zarz¹dzanie kolejnoœci¹ i liczb¹ wyœwietlanych sieci handlowych zarz¹dzamy z poziomu CDD https://sklepy.adretail.pl/contractors_priorities
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+
+Listing produktów - strona kategorii [ w edycji]
+
+Adresacja:
+* Obecny Url: /promocje/nazwa-kategorii
+* Nowy Url: /produkty/nazwa-kategorii
+
+Adres URL: 
+* Adres URL strony kategorii: promoceny.pl/produkty/nazwa kategorii
+* Adres URL po wybraniu sieci: promoceny.pl/produkty/nazwa kategorii/nazwa sieci
+* Wybranie sieci powoduje prze³adowanie strony
+o Je¿eli wybrana jest tylko jedna sieæ to przenosimy na stronê promoceny.pl/produkty/nazwa kategorii/nazwa sieci
+o Oznaczamy wybran¹ sieæ handlow¹ z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+* Je¿eli wybrana zostanie dodatkowa sieæ, to przenosimy u¿ytkownika na stronê promoceny.pl/produkty/nazwa kategorii 
+o Wybrane sieci s¹ oznaczone z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+Elementy sk³adowe strony:
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja: Polecane gazetki
+* Patrz sekcja sta³e komponenty – Polecane Gazetki
+
+o Nag³ówek strony
+* Nazwa strony w formie tekstowej – Nazwa kategorii – tekst 
+* Pole na krótki opis strony
+
+o Lista kategorii
+* Lista kategorii dostêpnych w serwisie
+* Wejœcie na stronê kategorii powoduje wyró¿nienie kategorii, której dotyczy
+* Wybraæ mo¿na tylko jedn¹ kategoriê
+* Wybranie kategorii prowadzi do wybranej strony kategorii
+* Wybrana kategoria zostaje rozwiniêta i pokazujemy listê jej podkategorii
+* Na stronie kategorii pokazujemy wyci¹gniête nazwy sieci handlowych.
+* Prezentujemy te sieci handlowe,  które posiadaj¹ produkty w wybranej kategorii
+* Lista sieci handlowych jest w formie przewijaka
+* Wybranie sieci handlowej powoduje wyœwietlenie strony kategorii/nazwa sieci
+* Pozosta³e kategorie g³ówne pozostaj¹ zwiniête
+* Je¿eli kategoria jest pusta (brak przypisanych produktów) to:
+* Kategoria nie jest dostêpna z poziomu serwisu
+* Dla u¿ytkowników z odes³añ, wyœwietlamy komunikat informacyjny o chwilowym braku produktów, je¿eli strona nie posiada aktywnych produktów
+"Ups! Obecnie brak produktów w tej kategorii."
+"Nasza oferta jest regularnie aktualizowana – zajrzyj ponownie wkrótce!"
+"Co mo¿esz zrobiæ teraz?"
+Przegl¹daj inne promocje
+Zobacz najnowsze gazetki
+
+o Sekcja: Popularne produkty
+* Lista produktów z wybranej kategorii
+* Wybranie produktu przenosi do strony produktu
+
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+o Opisy dla kategorii:
+* Alkohole
+"Odkryj najlepsze promocje na alkohole z gazetek promocyjnych. SprawdŸ okazje na wina, piwa, whisky i inne trunki w najni¿szych cenach."
+* Artyku³y dzieciêce
+"Szukasz promocji na artyku³y dzieciêce? SprawdŸ gazetki i znajdŸ najlepsze ceny na pieluchy, zabawki, ubranka i inne produkty dla najm³odszych."
+* Artyku³y papiernicze
+"Zobacz promocje na artyku³y papiernicze! Tanie zeszyty, d³ugopisy, bloki rysunkowe i inne produkty w atrakcyjnych cenach z aktualnych gazetek."
+* Dom i Ogród
+"Najlepsze promocje na wyposa¿enie domu i ogrodu. SprawdŸ oferty na meble, narzêdzia, dekoracje i akcesoria w najnowszych gazetkach."
+* Kultura i rozrywka
+"Zobacz aktualne promocje na ksi¹¿ki, gry planszowe, bilety i inne produkty z kategorii kultura i rozrywka. SprawdŸ oferty z gazetek."
+* Moda
+"Odkryj okazje na ubrania i akcesoria w gazetkach promocyjnych. ZnajdŸ najlepsze rabaty na odzie¿, obuwie i dodatki."
+* Motoryzacja
+"Promocje na akcesoria motoryzacyjne, oleje, narzêdzia i czêœci samochodowe. SprawdŸ gazetki i znajdŸ najlepsze oferty."
+* RTV i AGD
+"SprawdŸ promocje na sprzêt RTV i AGD z aktualnych gazetek. Telewizory, pralki, lodówki i inne urz¹dzenia w œwietnych cenach."
+* Sport i rekreacja
+"Promocje na sprzêt sportowy i rekreacyjny. SprawdŸ gazetki i znajdŸ okazje na rowery, sprzêt fitness, odzie¿ sportow¹ i inne."
+* Spo¿ywcze
+"Tanie zakupy spo¿ywcze? SprawdŸ promocje z gazetek na produkty spo¿ywcze – œwie¿e owoce, warzywa, nabia³, miêso i wiêcej."
+* Zdrowie i uroda
+"Najlepsze okazje na kosmetyki i produkty zdrowotne. SprawdŸ gazetki promocyjne i znajdŸ rabaty na perfumy, kremy, suplementy i wiêcej."
+* Zwierzêta
+"Promocje na karmy i akcesoria dla zwierz¹t. SprawdŸ aktualne gazetki i znajdŸ najlepsze ceny na produkty dla psów, kotów i innych pupili."
+
+
+
+
+
+
+
+STRONA PROMOCJE – PODKATEGORIA (produkty)
+
+Adresacja:
+* Obecny Url: brak adresacji 
+* Nowy Url: /produkty/nazwa-kategorii/nazwa-podkategorii
+
+Adres URL: 
+* Adres URL strony kategorii: promoceny.pl/produkty/nazwa kategorii/nazwa podkategorii
+* Adres URL po wybraniu sieci: promoceny.pl/produkty/nazwa kategorii/nazwa podkategorii/nazwa sieci
+* Wybranie sieci powoduje prze³adowanie strony
+o Je¿eli wybrana jest tylko jedna sieæ to przenosimy na stronê promoceny.pl/produkty/nazwa kategorii/nazwa podkategorii/nazwa sieci
+o Oznaczamy wybran¹ sieæ handlow¹ z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+* Je¿eli wybrana zostanie dodatkowa sieæ, to przenosimy u¿ytkownika na stronê promoceny.pl/produkty/nazwa kategorii/nazwa podkategorii 
+o Wybrane sieci s¹ oznaczone z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+
+
+Elementy sk³adowe strony:
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja: Polecane gazetki
+* Patrz sekcja sta³e komponenty – Polecane Gazetki
+
+o Nag³ówek strony
+* Nazwa strony w formie tekstowej – Nazwa podkategorii – tekst 
+* Pole na krótki opis strony
+
+o Lista kategorii
+* Lista kategorii dostêpnych w serwisie
+* Wejœcie na stronê podkategorii powoduje wyró¿nienie podkategorii, której dotyczy
+* Na stronie podkategorii pokazujemy wyci¹gniête nazwy sieci handlowych.
+* Prezentujemy te sieci handlowe, które posiadaj¹ produkty w wybranej kategorii
+* Lista sieci handlowych jest w formie przewijaka
+* Na stronie podkategorii prezentujemy nazwy pojedynczych produktów
+* Prezentujemy nazwy produktów,  które s¹ dostêpne w danej kategorii
+* Lista produktów jest w formie przewijaka
+* Pozosta³e kategorie g³ówne pozostaj¹ zwiniête
+* Je¿eli kategoria jest pusta (brak przypisanych produktów) to:
+* Kategoria nie jest dostêpna z poziomu serwisu
+* Dla u¿ytkowników z odes³añ, wyœwietlamy komunikat informacyjny o chwilowym braku produktów, je¿eli strona nie posiada aktywnych produktów
+"Ups! Obecnie brak produktów w tej kategorii."
+"Nasza oferta jest regularnie aktualizowana – zajrzyj ponownie wkrótce!"
+"Co mo¿esz zrobiæ teraz?"
+Przegl¹daj inne promocje
+Zobacz najnowsze gazetki
+
+o Sekcja: Popularne produkty
+* Lista produktów z wybranej kategorii
+* Wybranie produktu przenosi do strony produktu
+
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+Mo¿liwe kombinacje urli:
+
+Strona g³ówna:
+Promoceny.pl
+
+Strona listingu produktów
+Promoceny.pl/produkty
+Strona kategorii produktów
+Promoceny.pl/produkty/kategoria
+
+Strona kategorii produktów z wybran¹ sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria/nazwa sieci handlowej
+
+Strona kategorii produktów z wybranymi wiêcej ni¿ 1 sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria
+Strona podkategorii produktów
+Promoceny.pl/produkty/kategoria/podkategoria
+Strona podkategorii produktów z wybran¹ sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria/podkategoria/nazwa sieci handlowej
+
+Strona podkategorii produktów z wybran¹ wiêcej ni¿ 1 sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria/podkategoria
+Strona listingu produktu
+Promoceny.pl/produkty/kategoria/podkategoria/nazwa produktu
+Strona listingu produktu z wybran¹ sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria/podkategoria/nazwa produktu/nazwa sieci handlowej
+Strona listingu produktu z wybran¹ wiêcej ni¿ 1 sieci¹ handlow¹
+Promoceny.pl/produkty/kategoria/podkategoria/nazwa produktu   
+
+
+STRONA POJEDYNCZEGO PRODUKTU
+
+Adresacja:
+* Obecny Url: /detail/nazwa sieci-nazwa produktu
+* Nowy Url: /produkty/nazwa-kategorii/nazwa-podkategorii/nazwa sieci-nazwa produktu
+
+Elementy sk³adowe strony:
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja oferty
+
+* Nazwa produktu
+* Do nazwy produktu dodajemy informacje:
+o Je¿eli znamy % przeceny to tworzymy [nazwa produktu] + [% przeceny] + [Tekst Taniej!]
+o Je¿eli nie znamy % przeceny to tworzymy [nazwa produktu]+w [Nazwa sieci]:teraz [cena z³]
+
+* Podtytu³
+* Pod nazw¹ produktu dodajemy informacjê jaka jest oszczêdnoœæ, Oszczêdzasz a¿ [kwota oszczêdnoœci z³]
+o Je¿eli znamy tylko % przeceny to, wyliczamy na podstawie ceny regularnej
+o Je¿eli znamy cenê promocyjn¹ i po przecenie, to wyliczamy kwotê oszczêdnoœci na podstawie tych dwóch informacji
+o Je¿eli nie jesteœmy wstanie okreœliæ kwoty oszczêdnoœci to ukrywamy element
+
+o Blok ze zdjêciem produktu, etykiet¹ i nazw¹ sieci
+* Pokazujemy obrazek produktu (jeœli brak zdjêcia, u¿ywamy placeholdera).
+
+* Etykiety
+* Na obrazku mog¹ pojawiæ siê etykiety
+o Promocja / Okazja
+* Gdy produkt jest przeceniony >=25%<40%
+* Hit cenowy / Super Cena
+* Gdy rabat jest szczególnie du¿y, np. >= 40%
+* Tylko w ten weekend” / „Weekendowa oferta
+* Gdy promocja obowi¹zuje wy³¹cznie w sobotê-niedzielê (lub pi¹tek-niedziela).
+* Tylko z kart¹ [Nazwa karty lojalnoœciowej]
+* Jeœli cena promocyjna obowi¹zuje wy³¹cznie po zeskanowaniu karty lojalnoœciowej.
+* Koñcówka oferty
+* Jeœli do koñca promocji zosta³o mniej ni¿ 2 dni
+* Edycja œwi¹teczna” / „Okazja sezonowa”
+* Produkt zwi¹zany z sezonem (np. Bo¿e Narodzenie, Wielkanoc).
+* Oferta dnia / tylko w [nazwa tygodnia]
+* Gazetka promuje konkretny produkt wy³¹cznie przez 1-2 dni lub w konkretny dzieñ tygodnia
+* Limit dzienny / Limit na kartê
+* W gazetce widnieje zapis, ¿e produkt mo¿na kupiæ tylko w okreœlonej liczbie sztuk dziennie lub na kartê lojalnoœciow¹.
+* Cena tylko z aplikacj¹
+* W gazetce jest zaznaczone, ¿e rabat obowi¹zuje po zeskanowaniu aplikacji w sklepie.
+* Oferta 2+1 gratis” / „Kup 2, zap³aæ za 1
+* Gazetka wspomina o promocji typu „trzeci produkt gratis” czy „drugi za pó³ ceny”.
+
+* Nazwa sieci + logotyp
+* Tekstowa nazwa sieci + logotyp
+
+o Sekcja cena i promocja 
+
+* G³ówna cena promocyjna  
+* [Tekst: Cena tylko]+[cena z³]
+* Wyœwietlana zawsze, jeœli mamy jak¹kolwiek cenê promocyjn¹.
+
+* Stara cena X z³ / Oszczêdzasz Y z³
+* Stara cena X z³
+o Prezentujemy informacjê o cenie przed promocj¹
+* Je¿eli nie posiadamy wartoœci liczbowej, to wyliczamy z %
+* Je¿eli nie posiadamy wartoœci liczbowej, ani % to nie pokazujemy tego elementu
+* Oszczêdzasz Y z³
+o Je¿eli znamy tylko % przeceny to, wyliczamy na podstawie ceny regularnej
+o Je¿eli znamy cenê promocyjn¹ i po przecenie, to wyliczamy kwotê oszczêdnoœci na podstawie tych dwóch informacji
+o Je¿eli nie jesteœmy wstanie okreœliæ kwoty oszczêdnoœci to nie pokazujemy tego elementu
+* Stara cena X z³ / Oszczêdzasz Y z³
+o Je¿eli nie mo¿emy wyœwietliæ obu informacji to nie pokazujemy tego elementu na stronie
+
+* Komunikat o czasie trwania promocji
+* Prezentujemy w formie tekstowej
+o np. „Promocja wa¿na tylko do niedzieli, Zosta³y 3 dni!”
+o pokazujemy/wyœwietlamy, jeœli jest data koñca promocji.
+* jeœli do koñca <= 7 dni, pokazywaæ liczbê dni, w innym przypadku pokazujemy sam¹ datê.
+
+* Przycisk CTA
+* Odkryj wiêcej super okazji w gazetce [Nazwa sieci]
+* Link prowadz¹cy do strony z pe³n¹ gazetk¹
+* Podtytu³
+o Tekst [odkryj wiêcej super okazji w gazetce [nazwa sieci]
+
+* Opis produktu 
+* Je¿eli posiadamy opis dla tego produktu to umieszczamy go w tym polu
+* Je¿eli nie posiadamy opisu dla produktu to uzupe³niamy t¹ przestrzeñ treœci¹:
+„Niestety, obecnie nie posiadamy oficjalnego opisu dla tego artyku³u. Produkt [Nazwa produktu] jest dostêpny w [Nazwa sieci] w ramach promocji obowi¹zuj¹cej do [data]. Zachêcamy do sprawdzenia etykiety na opakowaniu oraz odwiedzenia strony producenta w celu poznania szczegó³owych informacji o sk³adzie i wartoœciach od¿ywczych.”
+
+o Sekcja ‘Poznaj wiêcej wybranych gazetek (Polecane gazetki)
+
+* Patrz sekcja sta³e komponenty – Polecane Gazetki
+* Zmieniamy nazwê z Polecane gazetki na „Poznaj wiêcej wybranych gazetek”
+* Dajemy podtytu³
+* Wybierz jedn¹ z najpopularniejszych gazetek i odkryj dziesi¹tki promocji!
+
+o Sekcja „Zobacz tak¿e inne podobne produkty”
+
+* Mechanizm dobierania „podobnych produktów”
+* Dok³adnie ta sama nazwa produktu i marki z tej samej kategorii/podkategorii
+* Jeœli brakuje produktów:
+o Poka¿ produkty o tej samej  nazwie z tej samej kategorii
+* Je¿eli nadal brakuje produktów
+o Rozszerz do produktów z tej samej podkategorii
+
+STRONA POJEDYNCZEGO ARCHIWALNEGO PRODUKTU
+
+
+Adresacja:
+* Obecny Url: /detail/nazwa sieci-nazwa produktu
+* Nowy Url: /produkty/nazwa-kategorii/nazwa-podkategorii/nazwa sieci-nazwa produktu
+
+o Sekcja Oferty
+* Nazwa produktu
+* Zamiast rabat % w tytule dodajemy [Oferta Archiwalna]
+* Podtytu³
+* Zmieniam na sta³y tekst:
+o Ten produkt mo¿e byæ dostêpny w cenie regularnej – sprawdŸ w sklepie [Nazwa sieci]
+
+o Sekcja cena i promocja 
+* Zamiast ceny promocyjnej, wyœwietlamy komunikat: “Ta oferta wygas³a [data].”
+
+o       Przycisk CTA
+* Zmiana treœci na, „Przejrzyj bie¿¹ce promocje [data gazetki]”
+* [data gazetki] Tekst mo¿e zawieraæ datê aktualnej gazetki, np. „(5–11 kwietnia)”
+* Element linkuje do aktualnej gazetki sieci, z której pochodzi produkt archiwalny
+
+o Etykiety
+* Na produktach archiwalnych nie wyœwietlamy etykiet
+
+o Opis produktu
+* Opis pozostaje bez zmian
+
+
+                   
+
+
+
+Listing gazetek promocyjnych 
+Strona prezentuje gazetki promocyjne podzielone na kategorie
+Adresacja:
+* Obecny Url: /gazetki
+* Nowy Url: /gazetki-promocyjne
+
+* Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja: Promowane Gazetki
+* Widget z gazetkami, patrz sekcja elementy dziedziczone Promowane gazetki
+
+o Nag³ówek strony (nazwa strony)
+* Miejsce na treœæ - Aktualne Gazetki reklamowe sieci handlowych + krótki opis strony
+
+o Sekcja: Kategoria gazetek
+* Ka¿da sekcja Kategorii posiada nag³ówek (nazwa kategorii)
+* W ka¿dej z sekcji prezentujemy gazetki przypisane do danej kategorii
+* W sekcjach pokazujemy tylko aktualne gazetki promocyjne
+* Je¿eli kategoria nie posiada przypisanych gazetek promocyjnych, nie pokazujemy jej na tej stronie ( nie dostêpna z poziomu serwisu)
+* Je¿eli u¿ytkownik wejdzie z wyników wyszukiwania na pust¹ kategoriê, to wyœwietlamy mu komunikat:
+
+"Ups! Obecnie brak dostêpnych gazetek promocyjnych w tej kategorii."
+"Nasza oferta jest regularnie aktualizowana – zajrzyj ponownie wkrótce!"
+   "Co mo¿esz zrobiæ teraz?"
+Przegl¹daj inne promocje
+Zobacz najnowsze gazetki
+
+* Je¿eli zostanie dodana do serwisu nowa kategoria i posiada przypisane gazetki promocyjne to tworzymy jej sekcjê
+* Kolejnoœæ sekcji kategorii jest powi¹zana z kolejnoœci¹ wyœwietlanych kategorii (patrz ni¿ej)
+* Z ka¿dej kategorii powinna byæ mo¿liwoœæ przejœcia do strony kategorii
+
+o Lista kategorii
+* Prezentujemy listê aktywnych kategorii g³ównych dostêpnych na serwisie
+* Lista dostêpnych kategorii pobierana jest z CDD (ustawienia/kategoria w serwisach)
+* Potrzebne bêdzie dodanie w CDD mo¿liwoœæ ustawiania kolejnoœci kategorii, mo¿e siê to odbywaæ na zasadzie dropdwon lub przypisywania cyfr do pozycji w panelu
+	
+o Sekcja: Popularne sieci handlowe
+* Prezentacja logotypów wybranych sieci handlowych 
+* Maksymalna liczba wyœwietlanych logotypów 18
+* Zarz¹dzanie kolejnoœci¹ i liczb¹ wyœwietlanych sieci handlowych zarz¹dzamy z poziomu CDD https://sklepy.adretail.pl/contractors_priorities
+
+o Sekcja: Miasta
+* Prezentujemy listê 20 miast 
+* Patrz sekcja sta³e elementy “Miasta”
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+Gazetki Promocyjne/kategoria
+    
+Strona prezentuje gazetki promocyjne z wybranej kategorii
+Adresacja:
+* Obecny Url: /gazetki#zwierzeta
+* Nowy Url: /gazetki-promocyjne/nazwa-kategorii
+
+Adres URL: 
+* Adres URL strony kategorii: promoceny.pl/gazetki-promocyjne/nazwa kategorii
+* Adres URL po wybraniu sieci: promoceny.pl/gazetki-promocyjne/nazwa kategorii
+* Wybranie sieci powoduje prze³adowanie strony
+o Je¿eli wybrana jest tylko jedna sieæ to przenosimy na stronê promoceny.pl/gazetki-promocyjne/nazwa kategorii/nazwa sieci
+o Oznaczamy wybran¹ sieæ handlow¹ z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+* Je¿eli wybrana zostanie dodatkowa sieæ, to przenosimy u¿ytkownika na stronê promoceny.pl/gazetki-promocyjne/nazwa kategorii 
+o Wybrane sieci s¹ oznaczone z mo¿liwoœci¹ jej odznaczenia
+o Nie przenosimy zaznaczonych sieci na pocz¹tek listingu, pozostaj¹ one na swoim miejscu
+
+* Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja: Polecane Gazetki
+* Wideget z gazetkami, patrz sekcja elementy dziedziczone 
+
+o Nag³ówek strony
+* Nag³ówek stronty w formie tekstowej Gazetki - [Nazwa kategorii]
+* Pole na krótki opis strony kategorii
+
+o Sekcja: Listing gazetek promocyjnych
+* Prezentujemy listê gazetek wszystkich sieci, które s¹ przypisane do wybranej kategorii (kategorii strony)
+
+o Filtry sieci handlowych
+* Wyci¹gamy nazwy sieci handlowych.
+* Prezentujemy te sieci handlowe, które posiadaj¹ aktywne gazetki w wybranej kategorii
+* Lista sieci handlowych jest w formie przewijaka
+* Zaznaczenie jednej sieci handlowej powoduje prze³adowanie i wyœwietlamy stronê promoceny.pl/gazetki-promocyjne/nazwa kategorii/nazwa sieci
+* Je¿eli zostanie wybrane kolejna sieæ, nastêpuje prze³adowanie strony i wyœwietlamy urla promoceny.pl/gazetki-promocyjne/nazwa kategorii/
+* Zaznaczone sieci nie zmieniaj¹ miejsca na liœcie sieci.
+
+o Sekcja: Lista kategorii 
+* Prezentujemy listê aktywnych kategorii dostêpnych na serwisie
+* Wyró¿niamy kolorem kategoriê, której dotyczy strona
+* Lista dostêpnych kategorii pobierana jest z CDD (ustawienia/kategoria w serwisach)
+* Potrzebne bêdzie dodanie w CDD mo¿liwoœæ ustawiania kolejnoœci kategorii.	
+
+o Sekcja: Popularne sieci handlowe
+* Nag³ówek tekstowy sekcji z mo¿liwoœci¹ dodania krótkiego opisu
+* Lista logotypów
+* Dwie opcje:
+o a) na podstawie listy promowanych sieci z CDD
+o b) lista sieci handlowych najczêœciej ogl¹danych
+
+o Sekcja: Miasta
+*  Patrz sekcja “Miasta”
+
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+
+Strona pojedynczej sieci handlowej
+ 
+
+Strona prezentuje listê sieci handlowych
+
+Adresacja:
+* Obecny Url: nazwa-sieci.promoceny.pl
+* Nowy Url: /nazwa-sieci
+* Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Nag³ówek strony 
+* Logo sieci + tekstowa nazwa sieci
+* Pole tekstowy na krótki opis
+
+o Sekcja: Gazetki promocyjne
+* Lista aktualnych gazetek promocyjnych konkretnej sieci
+* Embed przegl¹darki gazetki promocyjnej z uk³adem jednostronicowym
+* W przegl¹darce gazetki pokazujemy gazetkê bêd¹c¹ na pierwszym slocie
+* Emebed pozwala na przegl¹danie gazetki lewo/prawo
+o Przegl¹darka obs³ugujê inserty
+o Przegl¹darka obs³uguje przekliki
+o Przegl¹darka obs³uguje reklamy
+o Przegl¹darka obs³uguje opomiarowanie
+* Przegl¹darka w górnym prawym rogu posiada ikonê, która przenosi na stronê przegl¹darki gazetkowej
+o [do ustalenia] przegl¹darka taka jak na dingu
+o [do ustalenia] przegl¹darka jak na okazjum/promoceny
+* Wybranie, dowolnej innej gazetki powoduje (opcje do wybrania):
+* A) za³adowanie jej do embedu
+* B) przekierowanie na stronê przegl¹dania gazetki
+* Je¿eli sieæ handlowa posiada gazetki:
+* Ma 6 gazetek, uzupe³niamy nimi wszystkie sloty
+* Ma wiêcej ni¿ 6 gazetek, slot 6 zamienia siê na kafel informacyjny “Wiêcej gazetek”
+o Klikniêcie w ten kafel powoduje wyœwietlenie wszystkich dostêpnych gazetek tej sieci
+* Przenosimy u¿ytkownika na stronê /gazetki-promocyjne/nazwa sieci
+* Je¿eli jest mniej ni¿ 6 to uzupe³niamy tyle slotów, ile siê da
+* Je¿eli dana sieæ nie posiada ¿adnych gazetek promocyjnych (patrz Strona pojedynczej sieci handlowej (brak gazetek i produktów))
+
+o Sekcja: Wybrane produkty z gazetek Nazwa sieci
+
+* Listing produktów wyciêtych z wszystkich aktywnych gazetek danej sieci
+* Do listingu wybieramy produkty od najwy¿szej do najni¿szej przeceny, uzupe³niaj¹c listê o produktu, które nie maj¹ przypisane ceny przed i po lub nie da siê wyliczyæ wielkoœci przeceny
+* Produkty bez mo¿liwoœci wyliczenia przeceny dobieramy losowo
+* Kafle produktowe prezentuj¹ ikonê przeklikow¹, je¿eli jest zdefiniowana na gazetce
+* Brak gazetek i produktów 
+* Je¿eli z danej gazetki nie ma wyciêtych produktów patrz Strona pojedynczej sieci handlowej brak gazetek i produktów
+
+
+o Sekcja: Pole tekstowe SEO
+* Obszar na tekst
+o Do ustalenia treœæ i jak ma siê tworzyæ (przyda³by siê automat, schemat do tworzenia treœci
+
+o Sekcja: Listing artyku³ów
+* Prezentujemy zajawki artyku³ów, które dotycz¹ konkretnej sieci handlowej
+
+o Sekcja: Miasta
+*  Prezentujemy listê 20 miast 
+* Mo¿e byæ ona stworzona na podstawie przekazanej listy, zarz¹dzane na podstawie zg³oszenia do IT
+* Mo¿e byæ ona budowana automatycznie na podstawie najwiêkszej liczby odwiedzin pochodz¹cych z danego miasta
+* Aktualizacja mog³aby siê odbywaæ w okreœlonych cyklach, np. Co 2 tygodnie, co 30 dni
+* Nazwa miasta linkuje do strony miasta
+
+o Sekcja: Pole tekstowe II SEO
+* Obszar na tekst
+o Do ustalenia treœæ i jak ma siê tworzyæ (przyda³by siê automat, schemat do tworzenia treœci
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+
+Strona pojedynczej sieci handlowej (brak gazetek i produktów)
+
+
+Strona ma informowaæ u¿ytkownika, ¿e aktualnie brak dostêpnych gazetek promocyjnych lub produktów dla danej sieci handlowej. Kluczowe za³o¿enia:
+* Zachêcenie do dalszego korzystania z serwisu poprzez prezentacjê alternatywnych treœci.
+* Przekierowanie u¿ytkownika do aktualnych promocji w innych sieciach lub kategoriach produktowych.
+Adresacja:
+* Obecny Url: nazwa-sieci.promoceny.pl
+* Nowy Url: /nazwa-sieci
+
+* Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Nag³ówek strony 
+* Sekcja g³ówna – komunikat o braku gazetki
+* Pokazujemy logo sieci + nazwa sieci
+* Wyœwietla komunikat tekstowy o braku gazetki dla sieci.
+o „Obecnie nie posiadamy aktywnej gazetki promocyjnej dla sieci [Nazwa sieci]. SprawdŸ najnowsze promocje w innych sklepach
+* Umieszczamy przycisk CTA „Przegl¹daj promocje w innych sieciach”, który przekierowuje na stronê z aktualnymi gazetkami innych sieci.
+
+* Sekcja „Polecane gazetki”
+* Sekcja zaczyna siê od treœci: „Mo¿esz byæ zainteresowany gazetkami tych popularnych sieci:”
+* Prezentujemy 6 gazetek, które s¹ pobierane z „Promowanych gazetek” (CDD Wydawcy)
+* Ka¿da gazetka zawiera:
+o Ok³adkê gazetki
+o Przycisk „Zobacz gazetkê” z linkiem do konkretnej gazetki
+
+* Sekcja „Przegl¹darka gazetek promocyjnych”
+* W przypadku braku gazetki dla tej sieci wyœwietlana jest polecana gazetka alternatywna z 1 kafla polecanych gazetek.
+* Przycisk „Otwórz gazetkê” przekierowuje bezpoœrednio do tej gazetki.
+
+* Sekcja „Brak dostêpnych produktów”
+* Krótki komunikat informuj¹cy o braku produktów z gazetki tej sieci.
+o Nazwa sekcji: Brak dostêpnych produktów
+o Opis dla sekcji: Obecnie nie mamy ¿adnych produktów z gazetek sieci [nazwa sieci] do pokazania. SprawdŸ promocje w innych sklepach i odkryj najlepsze okazje! 
+* Przycisk CTA „Zobacz promocje w innych gazetkach” przekierowuje do strony z aktualnymi promocjami.
+
+* Sekcja „SprawdŸ te popularne promocje”
+* Wyœwietlamy 6 produktów promocyjnych z gazetek innych sieci
+* Ka¿dy produkt zawiera:
+o Zdjêcie produktu
+o Nazwê produktu i sklepu
+o Cenê 
+o Przycisk „Zobacz gazetkê” z linkiem do gazetki, w której znajduje siê produkt.
+
+
+
+Listing wszystkich sieci handlowych 
+
+
+Strona ma prezentowaæ listê dostêpnych sieci handlowych oraz najnowsze gazetki promocyjne, umo¿liwiaj¹c u¿ytkownikom szybki dostêp do aktualnych ofert.
+Kluczowe funkcje:
+* Zachêcenie do eksploracji gazetek w ró¿nych sieciach.
+* Filtrowanie i wyszukiwanie sieci oraz kategorii produktowych.
+*  Elementy sk³adowe strony:
+Adresacja:
+* Obecny Url: /sieci/
+* Nowy Url: /sieci-handlowe
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+* Wyœwietlenie œcie¿ki nawigacyjnej
+
+o Sekcja g³ówna – Tytu³ i opis strony
+* Nag³ówek: „Gazetki promocyjne – Najnowsze oferty w Twoich ulubionych sieciach handlowych”
+* Opis: „Odkryj najnowsze gazetki promocyjne swoich ulubionych sklepów! SprawdŸ aktualne oferty w supermarketach, drogeriach i sklepach z elektronik¹. Oszczêdzaj na codziennych zakupach dziêki promocjom dostêpnym w Lidlu, Biedronce, Rossmannie i wielu innych sieciach.”
+
+o Sekcja „Polecane sieci handlowe”
+* Prezentujemy logo sieci + najnowsz¹ gazetkê promocyjnej tej sieci
+* Ka¿dy element zawiera:
+*  Logo sieci
+* Ok³adkê gazetki
+* Przycisk CTA „Zobacz gazetkê”
+* Logo sieci + Gazetki pobieramy z widgetów (CDD Wydawcy) id¹c od Slotu 1
+
+o Sekcja „kategorie”
+* Prezentujemy wybrane kategorie 
+
+o Sekcja kategorii produktowych (lewa kolumna)
+* Wyszukiwarka sklepów: Pole tekstowe do wyszukiwania sieci handlowych.
+* Wyszukiwarka szuka po nazwach sieci
+* Wprowadzenie frazy zawê¿a podpowiedzi
+* Wybranie frazy z zawê¿enia przenosi do strony listingu gazetek promocyjnych wybranej sieci
+
+* Lista kategorii produktowych:
+* Kategorii g³ówne: 
+o „Alkohole”, „Artyku³y dzieciêce”, „Dom i ogród”, „Moda”, „RTV i AGD”, „Spo¿ywcze”, „Zdrowie i uroda”, „Zwierzêta” itp.
+* Dane z CDD Lista kategorii Gazetek promocyjnych
+o Wybranie kategorii powoduje przejœcie do strony kategorii gazetek promocyjnych /gazetki-promocyjne/kategoria
+o Wybranie innej kategorii powoduje przejœcie do nowej kategorii
+
+* Sekcja „Listing kategorii gazetek”
+* Wyœwietla listê X najnowszych gazetek promocyjnych.
+* Ka¿dy element zawiera:
+o Logo sieci
+o Nazwê sieci
+o Liczbê aktywnych gazetek
+* Liczba gazetek: X
+o Koñcz¹ce siê gazetki
+* Liczba gazetek, których data wygaœniêcia koñczy siê za 3 dni.
+* [liczba gazetek koñcz¹cych siê za 3 dni] z [liczba aktywnych gazetek] jeszcze tylko przez X dni!
+o Odliczamy do daty wygaœniêcia gazetki
+* Je¿eli nie ma takich gazetek to nie pokazujemy tego komunikatu
+* 
+o Liczba stron gazetek
+* Pokazujemy liczbê stron wszystkich aktywnych gazetek
+* [suma stron aktywnych gazetek] + stron samych promocji
+o Przycisk CTA „Otwórz promocjê”
+* Przenosi na stronê sieci
+
+
+
+
+o Sekcja: Polecane Gazetki
+* Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+o Nag³ówek strony “Sieci”
+* Nag³ówek sekcji
+* Pole na krótki opis
+
+o Sekcja polecane sieci
+* Prezentujemy listê polecany sieci handlowych w formie kafelkowej
+* Pokazujemy logotyp sieci
+* Nazwê sieci w formie tekstowej
+* Pod kaflem prezentujemy informacje i liczbie aktywnych gazetek 
+
+
+
+
+STRONA SIECI HANDLOWE – strona kategoria sieci 
+
+
+Strona kategorii ma prezentowaæ sieci handlowe oraz gazetki promocyjne dla okreœlonej kategorii produktowej (np. spo¿ywcze, RTV i AGD, moda). Kluczowe funkcje strony:
+* Umo¿liwienie u¿ytkownikom przegl¹dania sieci i gazetek w ramach wybranej kategorii.
+* Zachêcenie do eksploracji gazet promocyjnych oraz odkrycia najnowszych ofert.
+* Proste filtrowanie oraz ³atwa nawigacja.
+
+Adresacja:
+* Obecny Url: brak adresacji
+* Nowy Url: /sieci-handlowe/nazwa-kategorii
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Sekcja g³ówna – Tytu³ i opis kategorii
+o Nag³ówek: „Gazetki promocyjne – [Nazwa kategorii]”
+o Opis: „Zobacz promocje na produkty [nazwa kategorii] – [opis kategorii]
+* „Zobacz promocje na produkty spo¿ywcze – œwie¿e warzywa, owoce, nabia³, miêso i pieczywo. SprawdŸ gazetki promocyjne najpopularniejszych supermarketów i oszczêdzaj na zakupach.”
+
+* Sekcja „Polecane sieci handlowe”
+o Prezentujemy logo sieci + najnowsz¹ gazetkê promocyjnej tej sieci
+o Ka¿dy element zawiera:
+*  Logo sieci
+* Ok³adkê gazetki
+* Przycisk CTA „Zobacz gazetkê”
+* Logo sieci + Gazetki pobieramy z widgetów (CDD Wydawcy) id¹c od Slotu 1
+
+* Sekcja kategorii produktowych (lewa kolumna)
+o Wyszukiwarka sklepów: Pole tekstowe do wyszukiwania sieci handlowych.
+* Wyszukiwarka szuka po nazwach sieci
+* Wprowadzenie frazy zawê¿a podpowiedzi
+* Wybranie frazy z zawê¿enia przenosi do strony listingu gazetek promocyjnych wybranej sieci
+* Na stronie kategorii wyró¿niamy kategoriê, w której siê znajdujemy
+
+* Sekcja „Gazetki promocyjne – [Nazwa kategorii]”
+o Lista najnowszych gazetek z wybranej kategorii
+o Ka¿dy element zawiera:
+* Logo sieci
+* Nazwê sieci
+* Liczbê aktywnych gazetek
+* Liczba gazetek: X
+* Koñcz¹ce siê gazetki
+* Liczba gazetek, których data wygaœniêcia koñczy siê za 3 dni.
+o [liczba gazetek koñcz¹cych siê za 3 dni] z [liczba aktywnych gazetek] jeszcze tylko przez X dni!
+* Odliczamy do daty wygaœniêcia gazetki
+o Je¿eli nie ma takich gazetek to nie pokazujemy tego komunikatu
+o 
+* Liczba stron gazetek
+* Pokazujemy liczbê stron wszystkich aktywnych gazetek
+o [suma stron aktywnych gazetek] + stron samych promocji
+* Przycisk CTA „Otwórz promocjê”
+* Przenosi na stronê sieci
+* Opisy kategorii:
+
+Alkohole  „Promocje na alkohole – Gazetki sklepów z alkoholem”  „Gazetki z ofertami na wino, piwo i mocne trunki”„Promocje na alkohol – Najnowsze gazetki i oferty”„Gazetki z promocjami na piwo, wino i mocne trunki”Artyku³y dzieciêce  „Promocje na artyku³y dzieciêce – Gazetki z zabawkami i odzie¿¹”  „Gazetki z ofertami dla dzieci – Odzie¿, zabawki i akcesoria”„Promocje na artyku³y dzieciêce – Zabawki, ubrania, akcesoria”„Gazetki z promocjami na produkty dla dzieci”Artyku³y papiernicze  „Promocje na artyku³y papiernicze – SprawdŸ gazetki”  „Gazetki z ofertami na zeszyty, d³ugopisy i przybory szkolne”„Artyku³y papiernicze – SprawdŸ promocje w gazetkach”„Promocje na artyku³y biurowe i szkolne – Najnowsze oferty”Dom i ogród  „Dom i ogród – Najnowsze promocje i gazetki sklepów”  „Promocje na wyposa¿enie domu i ogrodu – SprawdŸ gazetki”„Dom i ogród – Promocje na meble, dekoracje i akcesoria”„Najlepsze okazje dla domu i ogrodu – Gazetki promocyjne”Kultura i rozrywka  „Promocje na ksi¹¿ki, filmy i gry – Gazetki z ofertami”  „Kultura i rozrywka – SprawdŸ aktualne promocje w gazetkach”„Promocje na ksi¹¿ki, muzykê i rozrywkê – Gazetki ofertowe”„Kultura i rozrywka – Najnowsze promocje i oferty”Moda  „Promocje na odzie¿ i obuwie – Aktualne oferty w gazetkach”  „Moda w promocji – Najnowsze gazetki z odzie¿¹ i dodatkami”„Moda – Promocje na odzie¿, obuwie i dodatki”„SprawdŸ najnowsze gazetki modowe i zni¿ki”Motoryzacja  „Promocje na akcesoria motoryzacyjne – SprawdŸ gazetki”  „Gazetki z ofertami na czêœci i wyposa¿enie samochodowe”„Motoryzacja – Promocje na akcesoria samochodowe i czêœci”„Najlepsze okazje dla kierowców – Gazetki promocyjne”RTV i AGD  „RTV i AGD – Najlepsze promocje w gazetkach sklepów”  „Promocje na elektronikê i sprzêt AGD – SprawdŸ aktualne gazetki”„RTV i AGD – SprawdŸ promocje w gazetkach sklepów”„Promocje na telewizory, sprzêt kuchenny i elektronikê”Sport i rekreacja  „Gazetki z ofertami na sprzêt sportowy i akcesoria”  „Promocje na produkty sportowe – SprawdŸ aktualne oferty”„Sport i rekreacja – Promocje na sprzêt sportowy i odzie¿”„Gazetki promocyjne ze sprzêtem sportowym”Spo¿ywcze  „Promocje na produkty spo¿ywcze – Gazetki supermarketów”  „Spo¿ywcze promocje – Najlepsze oferty na jedzenie i napoje”„Produkty spo¿ywcze – Promocje w gazetkach supermarketów”„SprawdŸ promocje na jedzenie i napoje – Najnowsze oferty”Zdrowie i uroda  „Zdrowie i uroda – Promocje w drogeriach i aptekach”  „Promocje na kosmetyki i suplementy – SprawdŸ gazetki”„Zdrowie i uroda – Promocje w drogeriach i aptekach”„Kosmetyki i suplementy – Najlepsze oferty w gazetkach”Zwierzêta  „Promocje na karmê i akcesoria dla zwierz¹t – Gazetki”  „Gazetki z ofertami dla Twoich pupili – Karmy, akcesoria i wiêcej”„Promocje na karmê i akcesoria dla zwierz¹t”„Zwierzêta – SprawdŸ najnowsze oferty w gazetkach”
+  
+
+
+
+
+
+
+
+
+STRONA WYKAZ SKLEPY – WYKAZ SKLEPÓW SG      
+
+Celem tej strony jest u³atwienie u¿ytkownikom znalezienia sklepów wed³ug lokalizacji i kategorii oraz zachêcenie ich do odwiedzenia sklepu lub przejrzenia najnowszych gazetek promocyjnych.
+* Pomoc u¿ytkownikom w szybkim odnalezieniu sklepów w swoim województwie lub mieœcie.
+* Zwiêkszenie widocznoœci strony w wyszukiwarkach na frazy zwi¹zane ze sklepami i lokalizacjami.
+Adresacja:
+* Obecny Url: /sklepy/
+* Nowy Url: /sklepy/
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: „Lista sklepów w Polsce – znajdŸ swój sklep wed³ug województwa”
+o Podtytu³ strony: „Mapa Polski z dostêpnoœci¹ sklepów”
+
+* Interaktywna mapa Polski
+o Mapa prezentuje wszystkie województwa.
+o Po najechaniu myszk¹ wyœwietla siê tooltip z nazw¹ województwa i liczb¹ dostêpnych sklepów.
+* [nazwa województwa] ( [suma sklepów/sieci handlowych] dostêpnych sklepów
+o Klikniêcie na województwo przenosi u¿ytkownika do podstrony z list¹ sklepów dostêpnych w tym regionie.
+
+* Sekcja „Kategorie sklepów”
+o Wyœwietlamy listê kategorii
+* Dwa mo¿liwe podejœcia:
+* Wyœwietlamy 8 najpopularniejszych kategorii sklepów
+* Wyœwietlamy wszystkie kategorie sklepów
+* Ka¿da kategoria sk³ada siê z ikony i nazwy kategorii
+* Klikniêcie w kategoriê przenosi do strony kategorii
+
+* Wyszukiwarka miast
+o Pole wyszukiwania pozwala u¿ytkownikom szybko znaleŸæ sklepy w danym mieœcie.
+o Wprowadzenie frazy dynamicznie podpowiada miasta dostêpne z listy podczas wpisywania
+o Wybranie miasta powoduje przekierowanie u¿ytkownika na stronê miasta
+
+* Lista województw (Alfabetyczna lista)
+o Wyœwietlamy wszystkie województwa jako przyciski z informacj¹ o liczbie dostêpnych sklepów w danym województwie.
+o Klikniêcie w kafel województwa przenosi do strony województwa
+
+* Sekcja „Popularne sieci handlowe”
+o Wyœwietlamy listê najpopularniejsze sieci handlowe
+o Kafel sklepu sk³ada siê z nastêpuj¹cych elementów:
+* Logo sieci
+* Nazwa sklepu
+* Suma liczby sklepów
+* Dropdown „wybierz województwo”
+*  Wybranie województwa z listy przenosi do strony województwa sieci
+
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+
+STRONA WYKAZ SKLEPY – WYKAZ SKLEPÓW - WOJEWÓDZTWO   
+
+Umo¿liwienie u¿ytkownikom przegl¹dania dostêpnych sklepów w danym województwie oraz u³atwienie nawigacji do listy sklepów w konkretnych miastach lub wybór interesuj¹cej ich kategorii sklepów.
+
+Adresacja:
+* Obecny Url: /szukaj/nazwa-wojewodztwa/
+* Nowy Url: /sklepy/nazwa-wojewodztwa/
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: „Lista sklepów w woj. [nazwa województwa] – znajdŸ placówkê w swoim mieœcie”
+o Podtytu³: „Mapa woj. [Nazwa województwa] z dostêpnoœci¹ sklepów”
+
+* Interaktywna mapa województwa
+o Mapa przedstawia interaktywny widok województwa z zaznaczonymi miastem
+o Po najechaniu myszk¹ na miasto wyœwietla siê tooltip z nazw¹ miasta i liczb¹ dostêpnych sklepów.
+* [Nazwa miasta] ([suma sklepów] dostêpnych sklepów)
+o Klikniêcie na miasto powoduje przekierowanie na stronê Miasta
+
+* Sekcja „Kategorie sklepów”
+o Wyœwietlamy listê kategorii
+* Dwa mo¿liwe podejœcia:
+* Wyœwietlamy 8 najpopularniejszych kategorii sklepów
+* Wyœwietlamy wszystkie kategorie sklepów
+* Ka¿da kategoria sk³ada siê z ikony i nazwy kategorii
+* Klikniêcie w kategoriê przenosi do podstrony kategorii Miasto
+
+* Sekcja „Lista miast w województwie”
+o Wyœwietla listê wszystkich miast w danym województwie wraz z liczb¹ dostêpnych sklepów.
+o Klikniêcie w miasto przenosi do podstrony kategorii Miasto
+
+
+* Wyszukiwarka miast
+o Pole wyszukiwania pozwala u¿ytkownikom szybko znaleŸæ sklepy w danym mieœcie (wyszukiwanie miast)
+o Wprowadzenie frazy dynamicznie podpowiada miasta dostêpne z listy podczas wpisywania
+o Wybranie miasta powoduje przekierowanie u¿ytkownika na stronê miasta
+
+* Sekcja „Popularne sieci handlowe”
+o Wyœwietla listê najpopularniejszych sieci handlowych z liczb¹ sklepów dostêpnych w wybranym województwie.
+o Kafel sklepu sk³ada siê z nastêpuj¹cych elementów:
+* Logo sieci
+* Nazwa sklepu
+* Suma liczby sklepów [suma sklepów z woj.] sklepów
+* Przycisk „Zobacz sklepy” przenosi u¿ytkownika na stronê placówki sieci
+* 
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+
+
+
+
+STRONA WYKAZ SKLEPY – WYKAZ SKLEPÓW - MIASTO   
+
+
+
+Umo¿liwienie u¿ytkownikom przegl¹dania dostêpnych sklepów w konkretnym mieœcie, z podzia³em na kategorie i sieci handlowe. Strona ma u³atwiaæ szybki dostêp do szczegó³owych informacji o sklepach oraz gazetkach promocyjnych.
+
+
+
+* Adresacja:
+o Obecny Url: /mesta/szukaj/swietokrzyskie/kielce/
+o Nowy Url: /sklepy/nazwa-wojewodztwa/miasto
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: „Lista sklepów w [nazwa miasta] – Adresy, godziny otwarcia i promocje” 
+o Podtytu³: Krótki opis celu strony, „ZnajdŸ wszystkie sklepy w Warszawie wraz z aktualnymi promocjami”.
+
+* Sekcja „Kategorie sklepów”
+o Wyœwietlamy listê kategorii
+* Dwa mo¿liwe podejœcia:
+* Wyœwietlamy 8 najpopularniejszych kategorii sklepów (slider)
+* Wyœwietlamy wszystkie kategorie sklepów (slider)
+* Ka¿da kategoria sk³ada siê z ikony i nazwy kategorii
+o Klikniêcie w kategoriê przenosi do podstrony kategorii Miasto
+
+* Sekcja „Lista dostêpnych sklepów w mieœcie”
+o Nag³ówek: Sklepy dostêpne w [Nazwa miasta]
+o Wyœwietla wszystkie dostêpne sieci handlowe w mieœcie.
+o Kafel sklepu sk³ada siê z nastêpuj¹cych elementów:
+* Logo sieci
+* Nazwa sklepu
+* Suma liczby sklepów [suma sklepów z miasta] sklepów
+* Przycisk „Zobacz sklepy” przenosi u¿ytkownika na stronê placówki sieci w mieœcie
+
+* Sekcja Wyszukiwarka sklepów w mieœcie
+o Pole wyszukiwania pozwala u¿ytkownikom szybko znaleŸæ sklepy dostêpny w danym mieœcie
+o Wprowadzenie frazy dynamicznie podpowiada sklepy dostêpne z listy podczas wpisywania
+o Wybranie sklepu/sieci powoduje przekierowanie u¿ytkownika na stronê sieci/sklepu
+
+
+* Sekcja „Poka¿ wiêcej sklepów”
+o Jeœli liczba sklepów przekracza X, wyœwietlany jest przycisk „Poka¿ wiêcej sklepów (18+)”, który:
+*  ³aduje kolejne sklepy bez prze³adowania strony 
+* Przenosi na drug¹ stronê listingu pokazuj¹c paginacjê zamiast przycisku „Poka¿ wiêcej”
+
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+STRONA WYKAZ SKLEPY – STRONA POJEDYNCZEJ PLACÓWKI   
+                                                                                                                                                                                                                                                                  
+
+Strona ma na celu pokazaæ szczegó³owe informacje o konkretnej placówce sieci handlowej, w tym adresu, godzin otwarcia oraz powi¹zanych gazetek promocyjnych. Dodatkowo zachêca u¿ytkownika do eksplorowania innych ofert i gazetek dostêpnych w serwisie.
+
+* Adresacja:
+o Obecny Url: /mapa/#prodejna=a2f93fd2-0f26-11ed-a0a6-214a408a8abc::lat=51.783300::lon=19.466700::zoom=6 
+o Nowy Url: /sklepy/nazwa-wojewodztwa/miasto/adres-placowki
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³: „[nazwa sieci] – Godziny otwarcia i adres placówki w [nazwa miasta] | Najnowsze promocje”
+o Podtytu³: „SprawdŸ najnowsze promocje w [nazwa sieci]”.
+
+* Sekcja informacji o placówce
+o Logo sieci
+o Nazwa sklepu i adres
+* Wyœwietlana jest pe³na nazwa sklepu i dok³adny adres placówki.
+o Godziny otwarcia
+* Poniedzia³ek-Pi¹tek: 06:00 - 23:00,
+* Sobota: 06:00 - 23:00,
+* Niedziela: nieczynne
+o Ikony przy adresie sklepu i godzin otwarcia
+
+* Sekcja „Aktualne gazetki promocyjne”
+o Wyœwietlamy aktualne gazetki promocyjne danej sieci.
+o Gazetka mo¿e zawieraæ Etykiety
+o Na kaflu gazetki jest informacja z jakiej sieci pochodzi oraz data obowi¹zywania
+
+* Sekcja „Polecane sieci handlowe”
+o Lista popularnych sieci handlowych z liczb¹ aktywnych gazetek.
+o Ka¿da karta zawiera:
+* Logo sieci
+* Nazwê sieci.
+* Liczbê aktywnych gazetek promocyjnych
+* Przycisk CTA: „Zobacz gazetki” – przenosi do strony sieci
+
+* Brak aktualnych gazetek sieci + brak godzin otwarcia
+
+
+
+o Brak aktualnych gazetek
+* Jeœli brak aktualnych gazetek, pojawia siê komunikat: 
+* „Obecnie brak dostêpnych gazetek promocyjnych. SprawdŸ ponownie wkrótce.”
+* Pod komunikatem wyœwietlane s¹ polecane gazetki innych sieci handlowych
+
+o Brak godzin otwarcia
+* Jeœli brak informacji, wyœwietla siê komunikat „Informacja niedostêpna”.
+
+
+
+
+
+
+
+
+
+
+STRONA WYKAZ SKLEPY – STRONA SKLEPÓW SIECI   
+
+
+Strona s³u¿y do prezentacji wszystkich placówek danej sieci handlowej w Polsce wraz z informacjami o ich lokalizacjach, godzinach otwarcia oraz mo¿liwoœci¹ przeszukiwania placówek wed³ug miasta i województwa.
+* Adresacja:
+o Obecny Url: /sklepy/szukaj/biedronka/ 
+o Nowy Url: /sklepy/nazwa-sieci
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: „Sklepy [nazwa sieci] w Polsce – Adresy i godziny otwarcia” 
+
+* Sekcja z informacjami o sieci handlowej
+o Sk³adowe sekcji:
+* Logo sieci handlowej
+* Nazwa sieci handlowej w formie tekstowej
+* Liczba sklepów [Suma wszystkich placówek w Polsce] 
+* Przycisk „Zobacz gazetki” (opcjonalnie ikona)
+* Przenosi na stronê sieci handlowej
+* Przycisk „Wybrane produkty” (opcjonalnie ikona)
+* Przenosi na stronê produkty/nazwa sieci
+
+* Filtr województwo - miasto
+o Dropdown „Wybierz województwo”
+* pozwala na szybkie zawê¿enie wyników do placówek w wybranym województwie.
+* Lista rozwijana zawiera pe³n¹ listê 16 województw,
+* Scenariusze:
+* Sklep posiada placówki w 3 województwach
+o Lista rozwijana zawiera pe³n¹ listê 16 województw, ale tylko 3 s¹ aktywne, reszta jest wyszarzona i nieklikalna.
+o Obok aktywnych województw pojawia siê liczba placówek np.:
+* Mazowieckie (45 placówek)
+* Dolnoœl¹skie (20 placówek)
+* Ma³opolskie (15 placówek)
+o Filtrowanie tabeli – wyœwietlane s¹ tylko placówki z wybranego regionu.
+o Przy wyszarzonych województwach, po najechaniu na nie, wyœwietla siê tooltip: „Brak placówek w tym województwie.”
+
+* Sklep posiada placówki tylko w 1 województwie
+o Lista rozwijana zawiera tylko jedno województwo – np. Mazowieckie, a pozosta³e s¹ ukryte lub wyszarzone.
+o Nad list¹ wyœwietlamy komunikat „[Nazwa sieci] posiada placówki tylko w województwie [Nazwa woj. Np. mazowieckim.”
+o Tabela od razu wyœwietla listê placówek z Mazowieckiego, bez koniecznoœci wyboru.
+o Alternatywna opcja:
+* Zamiast listy województw – bezpoœredni przycisk „Zobacz placówki w Mazowieckim”.
+
+
+
+* Sekcja Tabela z list¹ placówek
+o Ka¿dy wiersz tabeli zawiera:
+* Nazwa sieci
+* Nazwa sieci linkuje do strony sieci
+* Pe³ny adres placówki
+* Miasto
+* Godziny otwarcia (dni powszednie, soboty, niedziele)
+* Stronicowanie
+* umo¿liwia prze³¹czanie miêdzy stronami z wynikami.
+* Paginacja: Wyœwietla maksymalnie 10 wyników na stronê z paginacj¹ (<< 1 2 3 ... 15 >>)
+* Dropdown „Wybierz województwo”
+* pozwala na szybkie zawê¿enie wyników do placówek w wybranym województwie.
+* „Wyszukaj miasto”
+* umo¿liwia znalezienie placówek w konkretnym mieœcie.
+
+* Sekcja „Najpopularniejsze miasta”
+o Lista najpopularniejszych miast, w których znajduj¹ siê placówki danej sieci.
+* Klikniêcie na nazwê miasta przenosi do strony sieæ miasto
+o Liczba miast wyœwietlana jest na podstawie liczby placówek w mieœcie od najwiêkszej liczby do najmniejszej
+
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+* Sekcja „Polecane sieci handlowe”
+o Prezentujemy logo sieci + najnowsz¹ gazetkê promocyjnej tej sieci
+o Ka¿dy element zawiera:
+* Logo sieci
+* Ok³adkê gazetki
+* Przycisk CTA „Zobacz gazetkê”
+* Logo sieci + Gazetki pobieramy z widgetów (CDD Wydawcy) id¹c od Slotu 1
+STRONA WYKAZ SKLEPY – STRONA SKLEPÓW SIECI BRAK SKLEPÓW   
+
+Strona ma informowaæ u¿ytkowników o sklepach sieci [nazwa sieci] w Polsce. W przypadku braku informacji o placówkach, godzinach otwarcia lub gazetkach promocyjnych zapewnia alternatywne treœci (promocje w innych sieciach) oraz jasn¹ komunikacjê sytuacji.
+
+* Adresacja:
+o Obecny Url: /sklepy/szukaj/biedronka/ 
+o Nowy Url: /sklepy/nazwa-sieci
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: „Sklepy [nazwa sieci] w Polsce – Adresy i godziny otwarcia” 
+
+* Sekcja z informacjami o sieci handlowej
+o Sk³adowe sekcji:
+* Logo sieci handlowej
+* Nazwa sieci handlowej w formie tekstowej
+o Treœæ komunikatu: Brak informacji o adresach sklepów i godzinach otwarcia. Placówki mog¹ byæ tymczasowo zamkniête lub nieaktywne. W przypadku w¹tpliwoœci odwiedŸ stronê g³ówn¹ [nazwa sieci]
+
+* Sekcja „SprawdŸ aktualne promocje w innych sieciach handlowych”
+o Wyœwietla listê alternatywnych sieci handlowych z ich logotypami, liczb¹ aktywnych gazetek oraz przyciskiem „Zobacz gazetki”.
+o Dane pobierane na podstawie gazetek umieszczonych w widgecie gazetkowym (promowane gazetki)
+o Przycisk „Zobacz gazetki” przenosi do strony wybranej sieci
+
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+* Sekcja „Najpopularniejsze miasta
+o Lista miast, w których sieæ posiada³a najwiêcej placówek.
+* Jeœli lista miast zawiera mniej ni¿ 5 pozycji, uk³ad zmienia siê na jednokolumnowy.
+* Jeœli brak popularnych miast, sekcja jest ukrywana.
+* Alternatywa:
+* Inny sposób dobierania treœci
+STRONA WYKAZ SKLEPY – STRONA SKLEPÓW SIECI WOJEWÓDZTWO  
+                                                             
+
+Zaprezentowanie u¿ytkownikom wszystkich placówek sieci w danym województwie z informacjami o adresach, godzinach otwarcia i mo¿liwoœci¹ przejœcia do gazetki promocyjnej oraz filtrowania miast.
+
+* Adresacja:
+o Obecny Url: brak adresacji 
+o Nowy Url: /sklepy/nazwa-sieci/wojewodztwo
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tekst nag³ówka: „Sklepy [nazwa sieci] w województwie [nazwa województwa] – Adresy i godziny otwarcia”.
+
+* Sekcja z informacjami o sieci handlowej
+o Sk³adowe sekcji:
+* Logo sieci handlowej
+* Nazwa sieci handlowej w formie tekstowej
+* Liczba sklepów w danym województwie [X] placówek w województwie [nazwa województwa 
+* Przycisk „Zobacz gazetki” (opcjonalnie ikona)
+* Przenosi na stronê sieci handlowej
+* Przycisk „Wybrane produkty” (opcjonalnie ikona)
+* Przenosi na stronê produkty/nazwa sieci
+
+* Filtry i wyszukiwarka miast
+o Filtr województw:
+* Po wejœciu na stronê województwa automatycznie wybierane jest województwo
+* Klikniêcie w województwo rozwija listê z 16 województwami
+* Województwa w których nie ma placówek s¹ wyszarzone i nieklikalne
+* Obok aktywnych województw pojawia siê liczba placówek np.:
+* Mazowieckie (45 placówek)
+* Dolnoœl¹skie (20 placówek)
+* Ma³opolskie (15 placówek)
+* Jeœli u¿ytkownik wybierze nowe województwo, strona ³aduje now¹ zawartoœæ dla wybranego regionu. 
+* Filtrowanie tabeli – wyœwietlane s¹ tylko placówki z wybranego regionu.
+
+o Wyszukiwarka miast
+* Wyszukiwarka przeszukuje tylko miasta znajduj¹ce siê w danym województwie.
+* Wyszukiwanie podpowiada podczas wpisywania frazy.
+* Jeœli miasto znajduje siê w województwie i ma placówki, lista placówek zostaje automatycznie przefiltrowana, wyœwietlaj¹c tylko te dotycz¹ce wybranego miasta.
+
+* Scenariusze
+* Miasto znajduje siê w województwie i ma placówki
+o Filtruje wyniki i wyœwietla tylko placówki w danym mieœcie.
+o Aktualizuje listê placówek.
+
+* Miasto znajduje siê w województwie, ale nie ma ¿adnej placówki
+o Wyœwietla komunikat nad tabel¹” Brak placówek w [nazwa miasta]. SprawdŸ inne miasta w województwie [nazwa województwa].”
+o Lista placówek pozostaje pusta lub wyœwietla najbli¿sze placówki w województwie jako sugestiê.
+
+* Miasto nie nale¿y do wybranego województwa
+o Autouzupe³nianie nie pokazuje ¿adnych wyników.
+o Pod wyszukiwark¹ wyœwietlamy komunikat: „[Nazwa miasta] nie znajduje siê w województwie [nazwa województwa]. Wybierz inne miasto lub zmieñ województwo.”
+
+* Pole wyszukiwania jest puste po wpisaniu i usuniêciu tekstu
+o Resetuje listê do pierwotnego stanu, wyœwietlaj¹c wszystkie placówki w województwie.
+
+* Dzia³anie podpowiedzi
+* Wyœwietla maksymalnie 8 podpowiedzi.
+* Podpowiedzi pokazuj¹ nazwê miasta, a jeœli miasto ma wiêcej ni¿ 5 placówek, dodatkowo wyœwietla siê liczba dostêpnych placówek, np.:
+o Warszawa (125 placówek)
+o P³ock (5 placówek)
+
+o Dzia³anie wyszukiwarki województw i miast 
+* Wybór województwa
+* Po wybraniu województwa nastêpuje przeniesienie u¿ytkownika na stronê województwa.
+* Adres URL po zmianie:
+/sklepy/[nazwa-sieci]/[nazwa-wojewodztwa]
+* Zresetowanie wyszukiwarki miast, aby dzia³a³a tylko dla tego województwa.
+
+* Wybór miasta
+* W przypadku wyboru miasta, s¹ dwie mo¿liwe strategie:
+
+o 1. Filtrowanie wyników bez zmiany adresu URL
+* Zamiast przenosiæ na osobn¹ stronê miasta, lista placówek jest dynamicznie filtrowana, pokazuj¹c tylko placówki z wybranego miasta.
+* Adres URL pozostaje: /sklepy/[nazwa-sieci]/[nazwa-wojewodztwa]
+* Komunikat: „Wyœwietlamy placówki w [nazwa miasta], województwo [nazwa województwa].”
+
+o 2. Przeniesienie na stronê miasta
+* /[nazwa-sieci]/[nazwa-wojewodztwa]/[nazwa-miasta]
+* Strona miasta zawiera wszystkie placówki w danym mieœcie, z kontekstem godzin otwarcia i mo¿liwoœci¹ powrotu do listy województwa.
+
+* Wybranie miasta bez placówek:
+o Pokazujemy komunikat: „Brak placówek w [nazwa miasta]. SprawdŸ inne miasta w województwie [nazwa województwa].”
+o Pozostajemy na stronie województwa, nie przenosimy u¿ytkownika na pust¹ stronê.
+
+OPCJA 1 vs 2
+
+o Opcja 1 (filtrowanie dynamiczne) jest bardziej przyjazna u¿ytkownikowi, unika dodatkowych prze³adowañ strony i pozwala szybko zmieniaæ wyniki.
+
+o Opcja 2 (przeniesienie na stronê miasta) jest lepsza pod k¹tem SEO, zw³aszcza gdy miasta maj¹ znacz¹c¹ liczbê placówek (np. Warszawa, Kraków). Daje te¿ wiêksze mo¿liwoœci personalizacji treœci.
+
+
+
+
+   
+STRONA WYKAZ SKLEPY – STRONA SKLEPÓW SIECI MIASTO  
+
+Zapewniæ u¿ytkownikowi pe³n¹ informacjê o placówkach danej sieci handlowej w wybranym mieœcie, z mo¿liwoœci¹ przejœcia do innych miast tego samego województwa oraz sprawdzenia gazetek promocyjnych.
+* Adresacja:
+o Obecny Url: brak adresacji 
+o Nowy Url: /sklepy/nazwa-sieci/wojewodztwo/miasto
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tekst nag³ówka: „Sklepy [nazwa sieci] w [nazwa miasta] – Adresy i godziny otwarcia”.
+
+* Sekcja z informacjami o sieci handlowej
+o Sk³adowe sekcji:
+* Logo sieci handlowej
+* Nazwa sieci handlowej w formie tekstowej
+* Liczba sklepów w danym mieœcie:  [X] placówek w [nazwa miasta] 
+* Przycisk „Zobacz gazetki” (opcjonalnie ikona)
+* Przenosi na stronê sieci handlowej
+* Przycisk „Wybrane produkty” (opcjonalnie ikona)
+* Przenosi na stronê produkty/nazwa sieci
+
+* Filtry i wyszukiwarka miast
+o Województwo
+* Wyœwietla województwo do, którego nale¿y wybrane miasto
+* U¿ytkownik ma mo¿liwoœæ zmiany województwa, co powoduje przeniesienie na stronê województwa
+o Wyszukaj miasto
+* Wyœwietlamy miasto strony
+
+
+
+
+
+STRONA WYKAZ SKLEPY – STRONA KATEGORII
+
+Strona ma na celu umo¿liwienie u¿ytkownikom znalezienie najbli¿szych placówek w danej kategorii oraz prezentacjê aktualnych promocji w ró¿nych sieciach handlowych.
+* Adresacja:
+o Obecny Url: brak adresacji 
+o Nowy Url: /sklepy/nazwa-kategorii
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Nag³ówek strony
+o Tytu³ strony: Sklepy [nazwa kategorii] w Polsce – ZnajdŸ najbli¿sze placówki i aktualne promocje
+o Podtytu³: „Mapa sklepów w kategorii [nazwa kategorii]”
+
+* Sekcja: Wyszukiwarka miast
+o Tekst nad wyszukiwark¹ (instrukcja dla u¿ytkownika):  „Wybierz swoje województwo i kategoriê, aby znaleŸæ najbli¿sze placówki i aktualne promocje.”
+
+o Wybierz województwo
+* Dropdown „Wybierz województwo”
+* pozwala na szybkie zawê¿enie wyników do placówek w wybranym województwie.
+* Lista rozwijana zawiera pe³n¹ listê 16 województw,
+* Je¿eli w danym województwie nie ma sklepów z danej kategorii to zostaje ona wyszarzona z komunikatem:
+* Opcja 1: Brak sklepów w tej kategorii
+* Opcja 2: Brak sklepów w tej kategorii w wybranym województwie.
+* Opcja 3:Brak sklepów w tej kategorii w wybranym województwie. SprawdŸ inne województwa lub zmieñ kategoriê.”
+* Wybranie województwa przenosi na stronê kategorii województwo
+
+* Sekcja Mapa polski z dostêpnoœci¹ sklepów
+o Mapa z podzia³em na województwa.
+o Po najechaniu na województwo wyœwietlany jest tooltip z liczb¹ dostêpnych placówek w danej kategorii.
+o Klikniêcie w województwo przekierowuje u¿ytkownika na stronê tego województwa.
+o W przypadku gdy brak placówek w województwie: Wyœwietlamy komunikat „Brak placówek w tej kategorii w wybranym województwie.”
+
+* Sekcja „Kategorie sklepów”
+o Tytu³: Kategorie sklepów
+o Podtytu³: „Wybierz interesuj¹c¹ Ciê kategoriê i sprawdŸ dostêpne placówki”
+o Lista kategorii w formie ikon / przycisków.
+o Nazwa kategorii pod ka¿d¹ z ikon
+o Po klikniêciu w kategoriê przenosimy u¿ytkownika na stronê kategorii, prezentuj¹c tylko placówki z danej kategorii.
+
+* Sekcja „Placówki wed³ug województw”
+o Wyœwietlamy wszystkie województwa w których znajduje siê minimum 1 sklep wraz z informacj¹ o liczbie dostêpnych sklepów (sieci handlowych) w danym województwie.
+o Klikniêcie w kafel województwa przenosi do strony kategorii województwa
+o Je¿eli w danym województwie nie dzia³a ¿aden sklep (sieæ handlowa), to:
+* Nie pokazujemy go na liœcie województw
+* Wyszarzamy (element nieaktywny) z komunikatem „Brak sklepów tej kategorii”
+
+* Sekcja „Polecane sieci handlowe”
+o Prezentujemy najpopularniejsze sieci handlowe w danej kategorii
+* Popularnoœæ mo¿emy okreœliæ na podstawie:
+* Liczba placówek danej sieci w danym województwie
+* Zdefiniowana lista sieci jakie maj¹ siê wyœwietlaæ w danej kategorii
+o Ka¿da karta sieci zawiera
+* Logo
+* Nazwê sklepu/sieci
+* Liczba dostêpnych placówek 
+* Button z tekstem, „Wybierz województwo”, który przenosi do strony sieci – województwo
+* Jeœli sieæ nie ma placówek w danej kategorii, wyœwietla komunikat „Obecnie brak dostêpnych placówek w tej kategorii.”
+
+* Sekcja „Polecane gazetki”
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+
+
+
+
+
+
+
+
+
+
+STRONA WYKAZ SKLEPY – STRONA KATEGORII  WOJEWÓDZTWO
+
+
+Strona ma umo¿liwiæ u¿ytkownikowi przegl¹danie dostêpnych sklepów z wybranej kategorii w województwie, a tak¿e sprawdziæ listê miast i popularnych sieci handlowych
+* Adresacja:
+o Obecny Url: brak adresacji 
+o Nowy Url: /sklepy/nazwa-kategorii/wojewodztwo
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Sekcja „Nag³ówek strony”
+o Tytu³ strony: klepy [nazwa kategorii] w województwie [nazwa województwa] – Adresy i godziny otwarcia
+o Nazwa sekcji: Mapa sklepów w kategorii [nazwa kategorii] w województwie [nazwa województwa]
+
+* Sekcja „Mapa Województwa”
+* Pokazujemy mapê województwa
+* Po najechaniu na miasto pokazujemy informacjê: [Nazwa miasta] ([X] dostêpnych sklepów w kategorii [nazwa kategorii])
+* Klikniêcie w obrys miasta przenosi do podstrony kategorii miasto
+* Miasta, w których nie ma sklepów danej kategorii, s¹ nieaktywne i wyœwietlamy komunikat po najechaniu: [Nazwa miasta] - Brak sklepów w tej kategorii.
+* Jeœli w ca³ym województwie nie ma dostêpnych sklepów, wyœwietlamy komunikat: „Brak sklepów w tej kategorii w województwie [nazwa województwa].”
+* Je¿eli nast¹pi brak dostêpu do danych to wyœwietlamy komunikat nad map¹: „Informacje o sklepach s¹ chwilowo niedostêpne”.
+
+* Sekcja Kategoria sklepów
+o Lista kategorii prezentowana w formie ikon (przycisków.)
+o Ka¿da kategoria jest podpisana i daje mo¿liwoœæ przejœcia do sklepów z innych kategorii bezpoœrednio z tej strony.
+o Aktualnie wybrana kategoria jest podœwietlona
+o Pod kategoriami znajduje siê opis: „Aktualnie wybrano: [nazwa kategorii]. Zobacz sklepy w tej kategorii lub wybierz inn¹.”
+
+* Sekcja „Lista miast z dostêpnoœci¹ sklepów w kategorii”
+o Lista miast prezentuje miasta, w których dostêpne s¹ sklepy danej kategorii wraz z liczb¹ placówek.
+o Wyszukiwarka miast
+* Umo¿liwia filtrowanie miast na podstawie wpisanej frazy.
+* Lista zawiera miasta, które s¹ dostêpne w wybranym województwie
+* Mo¿liwoœæ wpisania nazwy miasta z literówk¹ – system podpowiada najbli¿sze dopasowania.
+* Jeœli u¿ytkownik wpisze miasto, którego nie ma w liœcie, wyœwietlamy komunikat: „Brak sklepów w wybranym mieœcie. SprawdŸ inne lokalizacje.”
+* Jeœli liczba miast przekracza X, wyœwietlany jest przycisk „Poka¿ wiêcej sklepów (18+)”, który:
+*  ³aduje kolejne sklepy bez prze³adowania strony 
+* Przenosi na drug¹ stronê listingu pokazuj¹c paginacjê zamiast przycisku „Poka¿ wiêcej”
+
+
+
+* Je¿eli brak miast dla tej kategorii, wyœwietlamy komunikat: 
+* Dla braku sklepów w województwie:
+* Brak sklepów w tej kategorii w wybranym województwie. SprawdŸ inne lokalizacje.”
+* Wprowadzenia miasta spoza województwa powoduje wyœwietlenie komunikatu: Miasto nie znajduje siê w województwie [nazwa województwa
+* Dla braku sklepów w wybranym mieœcie
+* Brak sklepów w tej kategorii w wybranym mieœcie. SprawdŸ inne lokalizacje.”
+
+
+
+* Sekcja „Popularne sieci handlowe”
+o Lista najpopularniejszych sieci handlowych oferuj¹cych sklepy w wybranej kategorii w województwie.
+o Przy ka¿dej sieci pokazujemy:
+* Logo sieci
+* Liczbê dostêpnych sklepów w województwie
+* Przycisk „Zobacz sklepy” przekierowuj¹cy na stronê listy sklepów danej sieci w kategorii.
+* Jeœli w województwie nie ma ¿adnej popularnej sieci, wyœwietlamy komunikat „Brak dostêpnych sieci handlowych w tej kategorii w województwie.”
+o Filtry sieci:
+* Wyszukiwarka sieci: 
+* Pozwala filtrowaæ sieci po nazwie.
+* Wyszukiwarka miast
+* Patrz Sekcja „Lista miast z dostêpnoœci¹ sklepów w kategorii” – wyszukiwarka miast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STRONA WYKAZ SKLEPY – STRONA KATEGORII  MIASTO
+
+
+Udostêpnienie u¿ytkownikom listy sklepów oferuj¹cych produkty z wybranej kategorii w konkretnym mieœcie. Strona ma umo¿liwiaæ ³atwe wyszukiwanie sklepów oraz dostêp do ich szczegó³owych informacji i gazetek promocyjnych.
+* Adresacja:
+o Obecny Url: brak adresacji
+o Nowy Url: /sklepy/nazwa-kategorii/wojewodztwo/miasto
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+o Wyœwietlenie œcie¿ki nawigacyjnej
+
+* Sekcja „Nag³ówek strony”
+o Tytu³: „Sklepy [nazwa kategorii ] w [nazwa miasta] – SprawdŸ najbli¿sze placówki i aktualne promocje”.
+o Podtytu³: ZnajdŸ najbli¿sze sklepy oferuj¹ce produkty w tej kategorii i sprawdŸ ich aktualne promocje.
+
+* Sekcja „Kategorie sklepów”
+o Lista kategorii prezentowana w formie ikon (przycisków.)
+o Wyró¿niamy kategoriê, na której obecnie jesteœmy
+o Po wybraniu nowej kategorii strona prze³adowuje siê i wyœwietla sklepy odpowiadaj¹ce wybranej kategorii w tym mieœcie.
+* Jeœli dla wybranej kategorii brak sklepów, wyœwietla siê komunikat:
+„Brak dostêpnych sklepów w kategorii [nazwa kategorii] w [nazwa miasta]. SprawdŸ inn¹ kategoriê lub wróæ do strony g³ównej.”
+
+* Sekcja „Lista sklepów”
+o Lista sklepów
+* Lista sklepów z kategorii dostêpnych wybranym mieœcie
+* Przy ka¿dej sieci pokazujemy:
+* Logo sieci
+* Liczbê dostêpnych sklepów w województwie
+* Przycisk „Zobacz sklepy” przekierowuj¹cy na stronê listy sklepów danej sieci w kategorii
+* Jeœli liczba sklepów przekracza 18, u¿ytkownik mo¿e klikn¹æ przycisk „Poka¿ wiêcej sklepów (18+)” – za³adowanie kolejnych sklepów bez prze³adowania strony.
+o Wyszukiwarka sklepów w mieœcie
+* Umo¿liwia wyszukiwanie sklepów w wybranym mieœcie.
+* Wprowadzenie frazy powoduje podpowiedzi z dostêpnych w tym mieœcie sklepów
+* Jeœli u¿ytkownik wpisze nazwê sklepu, który nie istnieje w tym mieœcie:
+* Wyœwietlamy komunikat:
+o Brak wyników dla [nazwa sklepu]. SprawdŸ inn¹ nazwê lub kategoriê
+BLOG: PORADNIK ZAKUPOWY
+
+Strona prezentuje listê artyku³ów
+* Adresacja:
+o Obecny Url: /nowosci/
+o Nowy Url: /poradnik-zakupowy/
+
+* Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+
+
+o Sekcja: Polecane Gazetki
+* Wideget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+
+o Lista kategorii artyku³ów
+* Lista kategorii artyku³ów tworzona na podstawie dostêpnych kategorii artyku³ów w CDD SEO Artyku³y dla serwisu promoceny.pl
+* Elementy kafla artyku³u
+* Zdjêcie
+* Kategoria artyku³u
+* Nazwa artyku³u
+* Data publikacji artyku³u
+* Lead
+
+o Sekcja popularne sieci handlowe
+* Patrz elementy sta³e
+
+o Sekcja: Miasta
+*  Patrz sekcja: Miasta
+
+o Sekcja: Stopka
+* Patrz Sekcja: Stopka
+
+BLOG: PORADNIK ZAKUPOWY – STR. ART
+
+
+* Elementy sk³adowe strony:
+
+* Adresacja:
+o Obecny Url: /nowosci/
+o Nowy Url: /poradnik-zakupowy/
+
+* Sekcja: Nawigacja
+o Patrz sekcja elementy dziedziczone Nawigacja
+
+* Breadcrumbs
+
+* Obszar artyku³u
+o Tytu³ artyku³u
+o Autor
+o Data publikacji
+o Lead
+o Zdjêcie
+o Treœæ artyku³u
+o Sekcja zobacz tak¿e
+o Tagi artyku³owe
+
+* Opcje Artyku³u (formatka artyku³owa)
+o Dwie opcje
+* Opcja 1 - podpiêcie pod interiow¹ formatkê artyku³ow¹
+* Opcja 2 - podpiêcie pod formatk¹ artyku³ow¹ w CDD
+
+Oznaczenie gazetek promocyjnych 
+* Oznaczenie gazetek promocyjnych
+o Status gazetki
+* "Nowa gazetka" – dla nowo dodanych gazetek (np. w ci¹gu ostatnich 24-48h).
+* "Ostatnia szansa" – dla gazetek, które koñcz¹ siê np. za 1-2 dni.
+* "Ju¿ wkrótce" – dla zapowiedzianych gazetek, które nie s¹ jeszcze aktywne.
+o Typ gazetki
+* "Mega promocje" – dla gazetek z wyj¹tkowymi przecenami.
+* "Sezonowa oferta" – dla ofert œwi¹tecznych, wakacyjnych, tydzieñ w³oski, itp.
+* "Gazetka specjalna" – dla katalogów tematycznych (np. oferta dla seniorów, Back to School itp.).
+
+Konstrukcja kafli
+* Kafle gazetkowe 
+o Kafle gazetkowe prezentuj¹ nastêpuj¹ce informacje
+* Ok³adka gazetki / pierwsza strona
+* Pobierane z CDD
+* Tekstowa nazwa gazetki 
+* [Nazwa sieci] gazetka
+o Pobierana z CDD
+* Prezentujemy informacje o wa¿noœci gazetki
+* 10 dni do koñca, do jutra, do dzisiaj
+* Wa¿na za 2 dni, 4 dni, od jutra
+
+* Kafle produktowe
+o Kafel produktowy budujemy z nastêpuj¹cych danych:
+* Nazwa produktu
+* Czas obowi¹zywania, informuj¹c, ile dni do koñca wa¿noœci oferty cenowej produktu, np. 10 dni do koñca, do jutra, do dzisiaj
+* Nazwa sieci, z której pochodzi produkt w formie tekstowej
+* Obrazek produktu
+* Cena produktu przed przecen¹
+* Cena produktu jest przekreœlona i w innym kolorze ni¿ cena promocyjna
+* Cena produktu po przecenie
+* Cena produktu jest wyeksponowana wielkoœci¹ czcionki i kolorem
+* Logotyp sieci
+* CTA przejœcia do gazetki promocyjnej
+
+Blenda 18+
+* Blenda 18+
+o Je¿eli produkt na le¿y do kategorii 18+ to nale¿y go zakryæ blend¹ 18+
+* Blenda 18+ wyœwietla komunikat z opcj¹ potwierdzenia wieku
+* Potwierdzenie, ¿e ma siê 18+ zdejmuje zaœlepkê 18+
+* Je¿eli brak potwierdzenia, na ca³ym serwisie utrzymujemy zaœlepkê 18+
+o Produkty s¹ oznaczane z poziomu CDD Gazetki, poprzez zaznaczenie check boxa “ok³adka dla pe³noletnich”
+o Blenda pojawia siê na produktach i gazetkach
+
+Obs³uga multiscreeningu
+* Multiscreening (tapeta)
+o Dostosowanie serwisu do prezentacji formy reklamowej tapeta
+* Tapeta nie powinna wchodziæ na kontent powoduj¹c jego nieczytelnoœæ
+
+Przegl¹darka gazetek promocyjnych
+
+*  Elementy sk³adowe strony:
+
+o Sekcja: Nawigacja
+* Patrz sekcja elementy dziedziczone Nawigacja
+
+o Breadcrumbs
+
+o Dwie opcje strony przegl¹dania gazetki
+
+* Opcja 1
+* Prezentacja gazetki jednostronicowej
+* Na przegl¹darce prezentujemy informacje
+o Logotyp sieci + nazwa sieci tekstowo
+o Informacje o dacie obowi¹zywania gazetki
+* Funkcjonalnoœci:
+o Liczba stron gazetki
+o Przybli¿enie/oddalenie gazetki
+o Przewijanie gazetki lewo/prawo
+o Obs³uga ikony przeklikowej
+* Sekcja Tagów
+o Pokazujemy tagi przypisane do gazetki
+* Ka¿da strona gazetki posiada swój zestaw tagów powi¹zany z ogl¹dan¹ stron¹
+* Sekcja produktów gazetki
+o Pokazujemy produkty wyciête z gazetki
+* Sekcja: Polecane Gazetki
+o Widget z gazetkami, patrz sekcja elementy dziedziczone Aktualne gazetki
+* Sekcja: Popularne sieci handlowe
+o Lista wybranych sieci handlowych
+
+* Sekcja: Miasta
+o  Prezentujemy listê 20 miast 
+
+* Sekcja: Stopka
+o Patrz Sekcja: Stopka
+
+* Opcja 2
+* Umieszczamy przegl¹darkê ca³o ekranow¹ z Ding.pl
+o Brak sekcji z opcji 1
+
+
+
+
+
+Uzupe³nienie o sztuczne SEO oraz meta tagi dla stron
+* STRONA G£ÓWNA
+o Meta Title:
+Promoceny.pl – gazetki promocyjne, oferty i promocje
+o Meta Description:
+Odkryj najnowsze gazetki promocyjne, wyj¹tkowe oferty i promocje w sieciach handlowych. SprawdŸ aktualne rabaty i oszczêdzaj przy codziennych zakupach.
+
+* LISTING PRODUKTÓW
+o Meta Title:
+gazetki promocyjne – oferty produktów
+o Meta Description:
+Przegl¹daj najnowsze gazetki promocyjne z ofertami produktów. ZnajdŸ wyj¹tkowe promocje i oszczêdzaj przy zakupach w sprawdzonych sieciach.
+
+* STRONA KATEGORII PRODUKTÓW
+o Meta Title:
+gazetki promocyjne – promocje {nazwa kategorii}
+o Meta Description:
+SprawdŸ najnowsze gazetki promocyjne z ofertami w kategorii {nazwa kategorii}. ZnajdŸ wyj¹tkowe promocje i rabaty na produkty.
+
+* STRONA PODKATEGORII PRODUKTÓW
+o Meta Title:
+gazetki promocyjne – {nazwa kategorii}: {nazwa podkategorii}
+o Meta Description:
+Odkryj najnowsze gazetki promocyjne z ofertami w kategorii {nazwa kategorii} – {nazwa podkategorii}. Skorzystaj z wyj¹tkowych promocji i rabatów.
+
+* STRONA POJEDYNCZEGO PRODUKTU
+o Meta Title:
+gazetki promocyjne – {nazwa produktu} w {nazwa sieci}
+o Meta Description:
+Kup {nazwa produktu} w ramach gazetki promocyjnej sieci {nazwa sieci}. Skorzystaj z wyj¹tkowej promocji i oszczêdzaj przy zakupach.
+
+
+* STRONA POJEDYNCZEGO ARCHIWALNEGO PRODUKTU
+o Meta Title:
+gazetki promocyjne – archiwalna oferta {nazwa produktu} w {nazwa sieci}
+o Meta Description:
+Poznaj archiwalne promocje na {nazwa produktu} w sieci {nazwa sieci} z gazetki promocyjnej. SprawdŸ, kiedy pojawi¹ siê nowe oferty.
+
+* LISTING GAZETEK PROMOCYJNYCH
+o Meta Title:
+gazetki promocyjne – aktualne oferty i promocje
+o Meta Description:
+Przegl¹daj najnowsze gazetki promocyjne z ofertami sieci handlowych. ZnajdŸ wyj¹tkowe promocje, rabaty i oszczêdzaj przy zakupach.
+
+* GAZETKI PROMOCYJNE/KATEGORIA
+o Meta Title:
+gazetki promocyjne – oferty w {nazwa kategorii}
+o Meta Description:
+SprawdŸ gazetki promocyjne z ofertami w kategorii {nazwa kategorii}. ZnajdŸ najlepsze promocje i rabaty na produkty.
+
+* STRONA POJEDYNCZEJ SIECI HANDLOWE
+o Meta Title:
+gazetki promocyjne – {nazwa sieci}
+o Meta Description:
+Poznaj gazetki promocyjne sieci {nazwa sieci} z aktualnymi ofertami, promocjami i wyj¹tkowymi rabatami. SprawdŸ szczegó³y oferty.
+
+* STRONY WYKAZU SKLEPÓW
+o Ogólna strona wykazu sklepów
+* Meta Title:
+gazetki promocyjne – lista sklepów w Polsce
+* Meta Description:
+ZnajdŸ sklepy oferuj¹ce gazetki promocyjne w Polsce. SprawdŸ lokalizacje, godziny otwarcia oraz aktualne promocje.
+
+o Sklepy wed³ug województwa
+* Meta Title:
+gazetki promocyjne – sklepy w {nazwa województwa}
+* Meta Description:
+Przegl¹daj sklepy w {nazwa województwa} oferuj¹ce gazetki promocyjne. ZnajdŸ placówki, godziny otwarcia i aktualne promocje.
+
+o Sklepy wed³ug miasta
+* Meta Title:
+gazetki promocyjne – sklepy w {nazwa miasta}
+* Meta Description:
+Odkryj sklepy w {nazwa miasta} oferuj¹ce gazetki promocyjne. SprawdŸ adresy, godziny otwarcia oraz aktualne promocje.
+
+* Strona pojedynczej placówki sklepowej
+o Meta Title:
+gazetki promocyjne – {nazwa sieci} sklep {adres placówki} w {nazwa miasta}
+o Meta Description:
+Szczegó³y sklepu {nazwa sieci} w {nazwa miasta}: {adres placówki}. SprawdŸ godziny otwarcia oraz ofertê gazetki promocyjnej.
+
+* Strona wykazu sklepów sieciowych
+o Meta Title:
+gazetki promocyjne – sklepy {nazwa sieci}
+o Meta Description:
+Przegl¹daj placówki sieci {nazwa sieci} oferuj¹ce gazetki promocyjne. ZnajdŸ sklep w Twojej okolicy i sprawdŸ aktualne promocje.
+
+* Strona z brakiem danych o placówkach
+o Meta Title:
+gazetki promocyjne – {nazwa sieci}: brak danych o sklepach
+o Meta Description:
+Obecnie brak dostêpnych informacji o sklepach sieci {nazwa sieci}. SprawdŸ inne oferty i gazetki promocyjne.
+
+
+
+
+Q&A
+1. Czy struktura HTML ods³on mo¿e ulec zmianie (coœ bêdzie divem zamiast paragrafem, albo divy bêd¹ w innym miejscu)
+
+Struktura HTML mo¿e ulec zmianie, ale pod warunkiem, ¿e zmiany te nie wp³yn¹ negatywnie na SEO ani funkcjonalnoœæ strony. Wa¿ne jest zachowanie semantycznoœci kodu, tak aby tagi odpowiada³y ich przeznaczeniu (np. nag³ówki <h1> - <h6>, paragrafy <p> dla tekstów, itp.).Roboty wyszukiwarek wykorzystuj¹ semantykê HTML do oceny treœci na stronie. Struktura z u¿yciem tagów takich jak <p> jest lepiej oceniana ni¿ stosowanie <div> jako kontenerów dla tekstu, poniewa¿ <div> jest neutralny semantycznie. Nadmierne u¿ycie <div> bez uzasadnienia mo¿e obni¿yæ ocenê strony w rankingach.
+- nie zamieniamy na divy paragrafów dla tekstów. Nie zamieniamy na divy nag³ówków h1…h6
+ 
+2. Czy uk³ad komponentów na stronie mo¿e ulec zmianie (nieznacznie, wizualnej, inne marginesy)
+
+Nieznaczne zmiany wizualne, takie jak marginesy czy odstêpy miêdzy komponentami, s¹ akceptowalne, o ile nie wp³ywaj¹ na funkcjonalnoœæ i u¿ytecznoœæ strony.
+ 
+3. Czy klasy CSS mog¹ ulec zmianie (inna nazwa)
+
+Tak, klasy CSS mog¹ byæ zmienione, ale nale¿y to zrobiæ w sposób uporz¹dkowany, aby unikn¹æ konfliktów w stylach. Wa¿ne, aby zmiany w klasach by³y spójne w ca³ym projekcie, a nazewnictwo klas by³o zgodne z najlepszymi praktykami
+
+4. W ujêciu zmian struktury URL - proœba o listê zmian, lub wskazanie wstêpnie obszarów w których mia³yby nast¹pi
+
+Adresacja za³¹czona do opisu ka¿dej sekcji
+
+5. Które elementy serwisu mog¹ byæ pominiête
+
+Zakres definiuje to co chcemy ¿eby by³o na serwisie
+
