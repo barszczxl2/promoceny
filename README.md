@@ -1,29 +1,15 @@
-# Promoceny.pl - Dokumentacja Techniczna
+# Projekty
 
-## O Projekcie
-Promoceny.pl to serwis internetowy prezentujący gazetki promocyjne, oferty i promocje z różnych sieci handlowych. Projekt umożliwia użytkownikom przeglądanie aktualnych promocji, gazetek oraz lokalizacji sklepów.
+## Promoceny.pl
+Dokumentacja techniczna serwisu Promoceny.pl - platformy prezentującej gazetki promocyjne, oferty i promocje z różnych sieci handlowych.
 
-## Struktura Dokumentacji
-- [Komponenty Dziedziczone](docs/komponenty-dziedziczone.md)
-- [Strona Główna](docs/strona-glowna.md)
-- [Listing Produktów](docs/listing-produktow.md)
-- [Gazetki Promocyjne](docs/gazetki-promocyjne.md)
-- [Sklepy](docs/sklepy.md)
-- [Blog - Poradnik Zakupowy](docs/blog.md)
+[Przejdź do dokumentacji Promoceny.pl](promoceny/README.md)
 
-## Technologie
-- Frontend: HTML5, CSS3, JavaScript
-- Backend: (do uzupełnienia)
-- Baza danych: CDD (Centralna Baza Danych)
-- Systemy zewnętrzne: 
-  - System CDD do zarządzania gazetkami
-  - System zarządzania sieciami handlowymi
+## Analytics CMS
+System CMS do wizualizacji i zarządzania danymi analitycznymi z Google Analytics 4 i Google Sheets.
 
-## Wymagania Systemowe
-(do uzupełnienia)
-
-## Instalacja
-(do uzupełnienia)
+[Przejdź do dokumentacji Analytics CMS](analytics-cms/README.md)
 
 ## Licencja
-Copyright by INTERIA.PL 2024. Wszystkie prawa zastrzeżone.
+- Promoceny.pl: Copyright by INTERIA.PL 2024. Wszystkie prawa zastrzeżone.
+- Analytics CMS: MIT License
